@@ -12,6 +12,8 @@ This module uses artwork from **Too Many Tokens DND**, which contains AI-generat
 ### About Vagabond & Land of the Blind
 **Vagabond** is a game system published by **Land of the Blind**. This module is a **fan-made, community project** and is **not affiliated with, endorsed by, or supported by Land of the Blind** in any way.
 
+<img width="1527" height="932" alt="image" src="https://github.com/user-attachments/assets/a4541371-cbbf-4d8e-af66-86ea38b9bf16" />
+
 ## Features
 
 - **318 NPCs Mapped** - Nearly complete coverage of Vagabond Bestiary and Humanlike compendiums
@@ -23,17 +25,12 @@ This module uses artwork from **Too Many Tokens DND**, which contains AI-generat
 
 ## Installation
 
-### Recommended Method: Manifest URL
+### Manifest URL
 
-1. Open **Foundry VTT** and navigate to your Vagabond world
-2. Go to **Settings** → **Manage Modules** (or **Add-on Modules** from setup)
-3. Click **Install Module**
-4. Paste this URL into the **Manifest URL** field:
    ```
    https://github.com/mordachai/art-for-vagabond/releases/latest/download/module.json
    ```
-5. Click **Install**
-6. Foundry will automatically download and install both:
+Foundry will automatically download and install both:
    - Art for Vagabond
    - Too Many Tokens DND (dependency)
 
@@ -57,38 +54,6 @@ The module applies:
 - **Character Portrait** - The first available token image as the actor portrait
 - **Token Image** - Wildcard path for randomized token variants
 - **Token Size** - Automatically scaled based on creature size (Small=1x1, Large=2x2, etc.)
-
-## How It Works
-
-This module uses Foundry VTT v13's **CompendiumArt** system to automatically apply artwork when actors are loaded from compendiums.
-
-### Technical Overview
-
-1. **Dependency**: Uses artwork from [Too Many Tokens DND](https://github.com/IsThisMyRealName/too-many-tokens-dnd)
-2. **Mapping**: Maps Vagabond NPC names to corresponding creatures in Too Many Tokens
-3. **Hook**: Listens to Foundry's `applyCompendiumArt` hook
-4. **Application**: Automatically applies portrait and token images when NPCs are accessed
-
-**Example Mappings:**
-- `Ogler` → `Spectator`
-- `Elemental, Water` → `Water Elemental`
-- `Giant, Hill` → `Hill Giant`
-- `Bandit` → `Bandit` (various dragonborn variants)
-
-### Why Too Many Tokens DND Doesn't Need to Be Activated
-
-The Too Many Tokens DND module only needs to be **installed** so that its image files are available on your system. Art for Vagabond directly references these image files - it doesn't need the Too Many Tokens module's functionality to be active.
-
-Think of it like this:
-- **Too Many Tokens DND** = Image library (just needs to exist)
-- **Art for Vagabond** = Automatic art applicator (uses the library)
-
-## Supported Compendiums
-
-- `vagabond.bestiary` - 297 creatures
-- `vagabond.humanlike` - 21 NPCs
-
-**Total Coverage**: 318 out of 318 NPCs (100%)
 
 ## Requirements
 
@@ -138,15 +103,6 @@ A: No. This is a fan-made module with no affiliation to Land of the Blind, the p
 
 This module provides mapping data only. All token artwork belongs to its respective creators.
 
-## Contributing
-
-Found an issue or want to suggest improvements?
-
-- **Issues**: https://github.com/mordachai/art-for-vagabond/issues
-- **Pull Requests**: https://github.com/mordachai/art-for-vagabond/pulls
-
-Suggestions for better token mappings are always welcome!
-
 ## License
 
 This module is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
@@ -154,19 +110,3 @@ This module is licensed under the MIT License. See [LICENSE](LICENSE) file for d
 **Vagabond** is a trademark of Land of the Blind. This module is not affiliated with or endorsed by Land of the Blind.
 
 Token artwork is from **Too Many Tokens DND** and is subject to their licensing terms.
-
-## Changelog
-
-### v1.1.0 (2025-12-31)
-- Fixed CompendiumArt integration with correct system ID mapping
-- Fixed portrait image paths to use actual filenames from directories
-- Created combined mapping file for both compendiums
-- Added automatic dependency installation for Too Many Tokens DND
-- Improved documentation and disclaimers
-
-### v1.0.0 (2025-12-30)
-- Initial release
-- 318 NPCs mapped (100% coverage)
-- Automatic token application via CompendiumArt hooks
-- Size-based token scaling
-- Wildcard token randomization support
