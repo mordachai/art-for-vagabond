@@ -1,16 +1,17 @@
 {
   "id": "art-for-vagabond",
   "title": "Art for Vagabond",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13"
   },
-  "description": "Automatically applies token artwork from Too Many Tokens Online to Vagabond NPCs. Provides 300+ creature tokens with size-appropriate scaling via online URLs - no downloads required!",
+  "description": "<p>Automatically applies token artwork from Too Many Tokens Online to Vagabond NPCs. Provides 300+ creature tokens with size-appropriate scaling via online URLs - no downloads required!</p>",
   "authors": [
     {
       "name": "mordachai",
-      "url": "https://github.com/mordachai"
+      "url": "https://github.com/mordachai",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -18,7 +19,7 @@
   ],
   "url": "https://github.com/mordachai/art-for-vagabond",
   "manifest": "https://github.com/mordachai/art-for-vagabond/releases/latest/download/module.json",
-  "download": "https://github.com/mordachai/art-for-vagabond/archive/refs/heads/main.zip",
+  "download": "https://github.com/mordachai/art-for-vagabond/releases/latest/download/module.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "bugs": "https://github.com/mordachai/art-for-vagabond/issues",
@@ -28,6 +29,14 @@
       {
         "id": "vagabond",
         "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "too-many-tokens-dnd",
+        "type": "module",
+        "manifest": "https://github.com/IsThisMyRealName/too-many-tokens-dnd/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]
