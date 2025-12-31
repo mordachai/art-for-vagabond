@@ -1,0 +1,38 @@
+# Build and development files
+build-compendium-art.js
+build-mapping.js
+create-mapping.js
+extract-vagabond-npcs.js
+getfirstimage.js
+npc-mapping.json
+vagabond-npcs-data.json
+unmapped-npcs.json
+
+# Claude Code configuration
+.claude/
+
+# Individual mapping files (we use the combined file)
+mappings/vagabond-bestiary.json
+mappings/vagabond-humanlike.json
+
+# Documentation for development
+BUILD-PROCESS.md
+SETUP.md
+GEMINI.md
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if ever used)
+node_modules/
+
+# Zip files
+*.zip

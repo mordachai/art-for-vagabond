@@ -31,5 +31,13 @@
         "compatibility": {}
       }
     ]
+  },
+  "flags": {
+    "compendiumArtMappings": {
+      "vagabond": {
+        "mapping": "modules/art-for-vagabond/mappings/vagabond-combined.json",
+        "credit": "Art from Too Many Tokens"
+      }
+    }
   }
 }

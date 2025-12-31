@@ -1,0 +1,4458 @@
+{
+  "vagabond.bestiary": {
+    "01WK986PiOP0uUDE": {
+      "__DOCUMENT_NAME__": "Flying Spellbook",
+      "actor": "modules/too-many-tokens-dnd/Flying Sword/FlyingSwordMace (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Flying Sword/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "0AFjXcf1RLhiuE9M": {
+      "__DOCUMENT_NAME__": "Ape",
+      "actor": "modules/too-many-tokens-dnd/Ape/Ape (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ape/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "0PP2iH12NZJB7VoH": {
+      "__DOCUMENT_NAME__": "Animated Armor",
+      "actor": "modules/too-many-tokens-dnd/Animated Armor/AnimatedArmor (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Animated Armor/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "0ZQ07sDbVFlUij3q": {
+      "__DOCUMENT_NAME__": "Giant, Hill",
+      "actor": "modules/too-many-tokens-dnd/Hill Giant/HillGiantFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hill Giant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "0ggPx89IztNk2YN8": {
+      "__DOCUMENT_NAME__": "Goblin, Mage",
+      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "0kzsaKPEt9F2cLzh": {
+      "__DOCUMENT_NAME__": "Ankheg",
+      "actor": "modules/too-many-tokens-dnd/Ankheg/Ankheg (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ankheg/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "0nLALSeaeMWmukSu": {
+      "__DOCUMENT_NAME__": "Chort",
+      "actor": "modules/too-many-tokens-dnd/Bearded Devil/BeardedDevil (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bearded Devil/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "0yQoEPuPUHUKwEAv": {
+      "__DOCUMENT_NAME__": "Dimension Ripper",
+      "actor": "modules/too-many-tokens-dnd/Displacer Beast/DisplacerBeast (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Displacer Beast/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "14SyZkKvSmv2smFw": {
+      "__DOCUMENT_NAME__": "Golem, Bone",
+      "actor": "modules/too-many-tokens-dnd/Bone Naga/BoneNaga (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bone Naga/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "15zTuWanUAXWX4Ee": {
+      "__DOCUMENT_NAME__": "Crawling Claw",
+      "actor": "modules/too-many-tokens-dnd/Crawling Claw/CrawlingClawRug (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Crawling Claw/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "1MdGIIKX4t4kz9Ok": {
+      "__DOCUMENT_NAME__": "Elemental, Water",
+      "actor": "modules/too-many-tokens-dnd/Water Elemental/WaterElementalSea (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Water Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "1w5VfFT6iJ7890ac": {
+      "__DOCUMENT_NAME__": "Ooze, Ectoplasmic",
+      "actor": "modules/too-many-tokens-dnd/Gelatinous Cube/GelatinousCubeInvisible (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gelatinous Cube/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "317tiGBZWk0gxSVp": {
+      "__DOCUMENT_NAME__": "Yeti",
+      "actor": "modules/too-many-tokens-dnd/Yeti/Yeti (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Yeti/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "31QN4EUQL9G9fOTj": {
+      "__DOCUMENT_NAME__": "Grasping Goo",
+      "actor": "modules/too-many-tokens-dnd/Gray Ooze/GrayOozeDissolving (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gray Ooze/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "35jFokbHaywW57P4": {
+      "__DOCUMENT_NAME__": "Couatl",
+      "actor": "modules/too-many-tokens-dnd/Couatl/CouatlDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Couatl/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "38Ao3uZskQmybbHJ": {
+      "__DOCUMENT_NAME__": "Nymit",
+      "actor": "modules/too-many-tokens-dnd/Sprite/SpriteBowFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sprite/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "3RUGcNIIcyNNK5MC": {
+      "__DOCUMENT_NAME__": "Chicken",
+      "actor": "modules/too-many-tokens-dnd/Goat/GoatGrassland (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "3gP8OJd4XdHbmr0W": {
+      "__DOCUMENT_NAME__": "Stirge",
+      "actor": "modules/too-many-tokens-dnd/Stirge/Stirge (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Stirge/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "4Lro471R0RGDC9xL": {
+      "__DOCUMENT_NAME__": "Carcolh",
+      "actor": "modules/too-many-tokens-dnd/Purple Worm/PurpleWorm (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Purple Worm/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "4k5nmsYtlwGLqqdM": {
+      "__DOCUMENT_NAME__": "Zombie, Drowner",
+      "actor": "modules/too-many-tokens-dnd/Zombie/ZombieDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Zombie/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "4pxjze1TRnSTeGxV": {
+      "__DOCUMENT_NAME__": "Zombie Dragon",
+      "actor": "modules/too-many-tokens-dnd/Beholder Zombie/BeholderZombie (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Beholder Zombie/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "4tgJAUkCwHMUbh0L": {
+      "__DOCUMENT_NAME__": "Elemental, Air",
+      "actor": "modules/too-many-tokens-dnd/Air Elemental/AirElementalDessert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Air Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "4v5QoFgJEO2q2z9v": {
+      "__DOCUMENT_NAME__": "Shark, Megalodon",
+      "actor": "modules/too-many-tokens-dnd/Hunter Shark/HunterShark (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hunter Shark/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "4vBxGDQxMm4xvHxQ": {
+      "__DOCUMENT_NAME__": "Dragon Turtle",
+      "actor": "modules/too-many-tokens-dnd/Young Green Dragon/YoungGreenDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Green Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "56Wb96lj19hGzOB9": {
+      "__DOCUMENT_NAME__": "Skeleton, Blazing Bones",
+      "actor": "modules/too-many-tokens-dnd/Skeleton/SkeletonBow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Skeleton/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "5EWozL7AN3eZxhon": {
+      "__DOCUMENT_NAME__": "Leech, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Worm/GiantWorm (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Worm/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "5IzyajPMBdSktYBn": {
+      "__DOCUMENT_NAME__": "Pixie",
+      "actor": "modules/too-many-tokens-dnd/Pixie/PixieFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pixie/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "5oYLWXICi7KYOtla": {
+      "__DOCUMENT_NAME__": "False Hydra",
+      "actor": "modules/too-many-tokens-dnd/Hydra/Hydra (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hydra/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "5slBPAwQ2kDgFCpa": {
+      "__DOCUMENT_NAME__": "Lindworm",
+      "actor": "modules/too-many-tokens-dnd/Young Green Dragon/YoungGreenDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Green Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "6374iY64VLoDAtDV": {
+      "__DOCUMENT_NAME__": "Kelpie",
+      "actor": "modules/too-many-tokens-dnd/Nightmare/Nightmare (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Nightmare/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "64mVh7KUrDrCzHR5": {
+      "__DOCUMENT_NAME__": "Beisht Kione Dhoo",
+      "actor": "modules/too-many-tokens-dnd/Nightmare/Nightmare (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Nightmare/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "6LjwOPsMtm36DT2g": {
+      "__DOCUMENT_NAME__": "Elemental, Lesser Water",
+      "actor": "modules/too-many-tokens-dnd/Water Elemental/WaterElementalSea (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Water Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "6l3L0a8gHCSRGPlQ": {
+      "__DOCUMENT_NAME__": "Banshee",
+      "actor": "modules/too-many-tokens-dnd/Banshee/BansheeCoast (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Banshee/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "6sls2wQDONungyyK": {
+      "__DOCUMENT_NAME__": "Choker",
+      "actor": "modules/too-many-tokens-dnd/Intellect Devourer/IntellectDevourer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Intellect Devourer/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "6y4J58Z8UGbrm2I2": {
+      "__DOCUMENT_NAME__": "Mantis, Giant",
+      "actor": "modules/too-many-tokens-dnd/Thri-kreen/ThriKreen (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Thri-kreen/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "7Q4CeeNTFsoyIvLJ": {
+      "__DOCUMENT_NAME__": "Elemental, Greater Air",
+      "actor": "modules/too-many-tokens-dnd/Air Elemental/AirElementalDessert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Air Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "7t0wb4hi6Oh7vAK1": {
+      "__DOCUMENT_NAME__": "Ghost",
+      "actor": "modules/too-many-tokens-dnd/Ghost/Ghost (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ghost/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "7xz66vMa0tsqNKqx": {
+      "__DOCUMENT_NAME__": "Medusa",
+      "actor": "modules/too-many-tokens-dnd/Medusa/MedusaFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Medusa/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "87OFFZOTxFeRldz8": {
+      "__DOCUMENT_NAME__": "Dragon, Ancient - Green",
+      "actor": "modules/too-many-tokens-dnd/Young Green Dragon/YoungGreenDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Green Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "8JzYAkpSslsI0HpO": {
+      "__DOCUMENT_NAME__": "Deep One",
+      "actor": "modules/too-many-tokens-dnd/Kuo-toa/KuoToa (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Kuo-toa/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "8gZeIa8LY8GN4H4u": {
+      "__DOCUMENT_NAME__": "Rabbit",
+      "actor": "modules/too-many-tokens-dnd/Goat/GoatGrassland (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "8sVozyqwRdex7Vu2": {
+      "__DOCUMENT_NAME__": "Cloaker",
+      "actor": "modules/too-many-tokens-dnd/Cloaker/Cloaker (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cloaker/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "9C6nnuhCslXCKstl": {
+      "__DOCUMENT_NAME__": "Boar, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Boar/GiantBoarSummer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Boar/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "9oOddlwS0ITkOVkm": {
+      "__DOCUMENT_NAME__": "Sphinx, Archon",
+      "actor": "modules/too-many-tokens-dnd/Sphinx/Sphinx (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sphinx/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "9qmdxUzE04c5cprG": {
+      "__DOCUMENT_NAME__": "Skeljaskrimsli",
+      "actor": "modules/too-many-tokens-dnd/Skeleton/SkeletonBow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Skeleton/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "9rpGK7YO9OfbXJoh": {
+      "__DOCUMENT_NAME__": "Green Slime",
+      "actor": "modules/too-many-tokens-dnd/Ochre Jelly/OchreJelly (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ochre Jelly/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "9ujVnpprisq50dFW": {
+      "__DOCUMENT_NAME__": "Crawling Wall",
+      "actor": "modules/too-many-tokens-dnd/Rug of Smothering/RugOfSmothering (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rug of Smothering/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "AJp7YGvfDGB2C1Yp": {
+      "__DOCUMENT_NAME__": "Death Knight",
+      "actor": "modules/too-many-tokens-dnd/Knight/KightHalflingFemaleGood (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Knight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ATWC3zLqqZCvDLGF": {
+      "__DOCUMENT_NAME__": "Dragon, Young - Red",
+      "actor": "modules/too-many-tokens-dnd/Young Red Dragon/YoungRedDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Red Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "AWphKwFCmJsDxfYV": {
+      "__DOCUMENT_NAME__": "Angel",
+      "actor": "modules/too-many-tokens-dnd/Deva/DevaFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Deva/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "BHX4mhjjYrxqIe2E": {
+      "__DOCUMENT_NAME__": "Troglodyte",
+      "actor": "modules/too-many-tokens-dnd/Troglodyte/Troglodyte (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Troglodyte/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "COZgPuEHq67Lhcjd": {
+      "__DOCUMENT_NAME__": "Werewolf, Dire",
+      "actor": "modules/too-many-tokens-dnd/Werewolf/Werewolf (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Werewolf/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "CmGogAAhZOFHHJeG": {
+      "__DOCUMENT_NAME__": "Will o' Wisp",
+      "actor": "modules/too-many-tokens-dnd/Will-o'-Wisp/WillOWispBlue (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Will-o'-Wisp/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "DIXBdymeCr9HUJOd": {
+      "__DOCUMENT_NAME__": "Hag, Grove",
+      "actor": "modules/too-many-tokens-dnd/Green Hag/GreenHag (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Green Hag/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "DhEz76COsuB6EsEn": {
+      "__DOCUMENT_NAME__": "Triceratops",
+      "actor": "modules/too-many-tokens-dnd/Triceratops/Triceratops (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Triceratops/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Dk22iH4Qt3b04hle": {
+      "__DOCUMENT_NAME__": "Whale, Blue",
+      "actor": "modules/too-many-tokens-dnd/Killer Whale/KillerWhale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Killer Whale/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "Dl66ByoWtgTfWJ7C": {
+      "__DOCUMENT_NAME__": "Octopus, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Octopus/GiantOctopus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Octopus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Dq3ik1JY5uCLzUDV": {
+      "__DOCUMENT_NAME__": "Wight",
+      "actor": "modules/too-many-tokens-dnd/Wight/WightDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "E2wuTAAG4LlsJca7": {
+      "__DOCUMENT_NAME__": "Mummy Lord",
+      "actor": "modules/too-many-tokens-dnd/Mummy/Mummy (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mummy/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "EVRDPfOWLjfVf1io": {
+      "__DOCUMENT_NAME__": "Rumptifusel",
+      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "EbaM51lNKlSiwgqf": {
+      "__DOCUMENT_NAME__": "Snake, Pit Viper",
+      "actor": "modules/too-many-tokens-dnd/Poisonous Snake/PoisonousSnakeDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Poisonous Snake/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "EjmMNTTsfwFpGdKW": {
+      "__DOCUMENT_NAME__": "Assassin Vine",
+      "actor": "modules/too-many-tokens-dnd/Vine Blight/VineBlight (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Vine Blight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "F0RHdKPPAxKpxtnG": {
+      "__DOCUMENT_NAME__": "Kobold, Warrior",
+      "actor": "modules/too-many-tokens-dnd/Kobold/KoboldArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Kobold/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FGTs80o3umSqJjZH": {
+      "__DOCUMENT_NAME__": "Elemental, Lesser Fire",
+      "actor": "modules/too-many-tokens-dnd/Fire Elemental/FireElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Fire Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FHY3U8iRqDufmcZT": {
+      "__DOCUMENT_NAME__": "Manticore",
+      "actor": "modules/too-many-tokens-dnd/Manticore/Manticore (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Manticore/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "FTyGaeKSe3Hhi2aw": {
+      "__DOCUMENT_NAME__": "Skeleton, Giant",
+      "actor": "modules/too-many-tokens-dnd/Minotaur Skeleton/MinotaurSkeleton (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Minotaur Skeleton/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "FYjFBtN4C5lXvFLA": {
+      "__DOCUMENT_NAME__": "Gelatinous Cube",
+      "actor": "modules/too-many-tokens-dnd/Gelatinous Cube/GelatinousCubeInvisible (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gelatinous Cube/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "FdAlnzOqsprGIwwP": {
+      "__DOCUMENT_NAME__": "Owl",
+      "actor": "modules/too-many-tokens-dnd/Owl/Owl (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Owl/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FqA1XFVfB8o9zigs": {
+      "__DOCUMENT_NAME__": "Cat",
+      "actor": "modules/too-many-tokens-dnd/Cat/CatDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FsDuYyDw3jtO2KYC": {
+      "__DOCUMENT_NAME__": "Sea Lion",
+      "actor": "modules/too-many-tokens-dnd/Seal/Seal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Seal/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Fup7vnsrE5fRJwyP": {
+      "__DOCUMENT_NAME__": "Hellhound",
+      "actor": "modules/too-many-tokens-dnd/Hellhound/Hellhound (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hellhound/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FwKNYxhPvyTu4D1c": {
+      "__DOCUMENT_NAME__": "Homunculus",
+      "actor": "modules/too-many-tokens-dnd/Homunculus/Homunculus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Homunculus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "G2KnbYhwZ2xfT3wM": {
+      "__DOCUMENT_NAME__": "Tarrasque",
+      "actor": "modules/too-many-tokens-dnd/Tyrannosaurus Rex/TyrannosaurusRex (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Tyrannosaurus Rex/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "G4yOOmYO0Wahx9d8": {
+      "__DOCUMENT_NAME__": "Elemental, Lesser Air",
+      "actor": "modules/too-many-tokens-dnd/Air Elemental/AirElementalDessert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Air Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "GAMXQgxdOS165gB8": {
+      "__DOCUMENT_NAME__": "Thoom",
+      "actor": "modules/too-many-tokens-dnd/Earth Elemental/EarthElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Earth Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "GC7oKXEGCyiVXrxw": {
+      "__DOCUMENT_NAME__": "Pseudodragon",
+      "actor": "modules/too-many-tokens-dnd/Pseudodragon/PseudodragonCoastal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pseudodragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "GSppPxCY8u1FvIDQ": {
+      "__DOCUMENT_NAME__": "Lizard, Giant Draco",
+      "actor": "modules/too-many-tokens-dnd/Giant Lizard/GiantLizardSwamp (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Lizard/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Gfk8iD3vEweR7era": {
+      "__DOCUMENT_NAME__": "Hippopotamus",
+      "actor": "modules/too-many-tokens-dnd/Rhinoceros/Rhinoceros (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rhinoceros/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "GueGlPk8Be6uhm0b": {
+      "__DOCUMENT_NAME__": "Floating Eye",
+      "actor": "modules/too-many-tokens-dnd/Spectator/Spectator (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Spectator/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "H75dZV7HI4VHjtKR": {
+      "__DOCUMENT_NAME__": "Snake, Giant Poisonous",
+      "actor": "modules/too-many-tokens-dnd/Giant Poisonous Snake/GiantPoisonousSnakeDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Poisonous Snake/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "HSRsNGY2YYqFEJ2t": {
+      "__DOCUMENT_NAME__": "Viskyd",
+      "actor": "modules/too-many-tokens-dnd/Sprite/SpriteBowFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sprite/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "HgFLrkxTM7oe2w7Z": {
+      "__DOCUMENT_NAME__": "Horse, Draft",
+      "actor": "modules/too-many-tokens-dnd/Draft Horse/DraftHorseSummer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Draft Horse/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "HmlmtEocbWolrl3F": {
+      "__DOCUMENT_NAME__": "Weasel, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Weasel/GiantWeaselForest (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Weasel/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Ht9KJUOiRr1qjSQ2": {
+      "__DOCUMENT_NAME__": "Dragon, Young - Green",
+      "actor": "modules/too-many-tokens-dnd/Young Green Dragon/YoungGreenDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Green Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Hxp3Jl8LovAmxeNY": {
+      "__DOCUMENT_NAME__": "Amphiptere",
+      "actor": "modules/too-many-tokens-dnd/Pseudodragon/PseudodragonCoastal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pseudodragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "IH0voiEc6ZkTBjH8": {
+      "__DOCUMENT_NAME__": "Hippopotamus, Behemoth",
+      "actor": "modules/too-many-tokens-dnd/Rhinoceros/Rhinoceros (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rhinoceros/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "IK2zXCOyRBKU8rS2": {
+      "__DOCUMENT_NAME__": "Carrion Clump",
+      "actor": "modules/too-many-tokens-dnd/Shambling Mound/ShamblingMound (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shambling Mound/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "IWiL8vs9JwuriDcX": {
+      "__DOCUMENT_NAME__": "Animated Armor",
+      "actor": "modules/too-many-tokens-dnd/Animated Armor/AnimatedArmor (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Animated Armor/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "IXUAeSvvSjPDcxNC": {
+      "__DOCUMENT_NAME__": "Cockatrice",
+      "actor": "modules/too-many-tokens-dnd/Cockatrice/Cockatrice (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cockatrice/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "IcbNlle1cmGen0Kk": {
+      "__DOCUMENT_NAME__": "Skeleton",
+      "actor": "modules/too-many-tokens-dnd/Skeleton/SkeletonBow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Skeleton/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Im2QfgKyeK3bFyLO": {
+      "__DOCUMENT_NAME__": "Alligator/Crocodile, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Crocodile/GiantCrocodile (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Crocodile/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "JEjyqTf7HImNj1hy": {
+      "__DOCUMENT_NAME__": "Sabre-tooth Tiger",
+      "actor": "modules/too-many-tokens-dnd/Saber-Toothed Tiger/SaberToothedTigerArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Saber-Toothed Tiger/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Ja6yNDG2LptOgMjn": {
+      "__DOCUMENT_NAME__": "Owl Bear",
+      "actor": "modules/too-many-tokens-dnd/Owlbear/Owlbear (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Owlbear/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "JdG9XdEO8Gk3vwpV": {
+      "__DOCUMENT_NAME__": "Carcass Crawler",
+      "actor": "modules/too-many-tokens-dnd/Carrion Crawler/CarrionCrawler (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Carrion Crawler/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "JiYcX0LZZZCqhyrq": {
+      "__DOCUMENT_NAME__": "Grey Ooze",
+      "actor": "modules/too-many-tokens-dnd/Gray Ooze/GrayOozeDissolving (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gray Ooze/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Jqv4wH6JcoviGgE2": {
+      "__DOCUMENT_NAME__": "Kobold, Alchemist",
+      "actor": "modules/too-many-tokens-dnd/Kobold/KoboldArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Kobold/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "KNtsLMtnvRRhzHq0": {
+      "__DOCUMENT_NAME__": "Ape, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Ape/GiantApeGorilla (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Ape/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "KOz3gxILuvDESwJZ": {
+      "__DOCUMENT_NAME__": "Ripworm",
+      "actor": "modules/too-many-tokens-dnd/Purple Worm/PurpleWorm (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Purple Worm/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "KQSHQH9otaxpToPF": {
+      "__DOCUMENT_NAME__": "Potead, Medium",
+      "actor": "modules/too-many-tokens-dnd/Awakened Shrub/AwakenedShrub (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Awakened Shrub/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "KYnkN1KyQ0P1HXgJ": {
+      "__DOCUMENT_NAME__": "Spider, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Spider/GiantSpider (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Spider/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "KeV6hUgx2XhZQcSD": {
+      "__DOCUMENT_NAME__": "Pteranodon",
+      "actor": "modules/too-many-tokens-dnd/Pteranodon/Pteranodon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pteranodon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "KiEAtgHOGTguu2SW": {
+      "__DOCUMENT_NAME__": "Spider, Giant Black Widow",
+      "actor": "modules/too-many-tokens-dnd/Giant Spider/GiantSpider (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Spider/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LHeJZ3DFQ1ni6og1": {
+      "__DOCUMENT_NAME__": "Potead, Small",
+      "actor": "modules/too-many-tokens-dnd/Awakened Shrub/AwakenedShrub (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Awakened Shrub/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LQTZ2AFyaI4IJD7b": {
+      "__DOCUMENT_NAME__": "Ant, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Centipede/GiantCentipede (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Centipede/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LWsvMezQ9BvCYFfJ": {
+      "__DOCUMENT_NAME__": "Violet Fungus",
+      "actor": "modules/too-many-tokens-dnd/Violet Fungus/VioletFungus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Violet Fungus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MDeTATYPlrz4jjQb": {
+      "__DOCUMENT_NAME__": "Dragon, Ancient - Red",
+      "actor": "modules/too-many-tokens-dnd/Young Red Dragon/YoungRedDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Red Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "MV5G94cDuVi9tKt9": {
+      "__DOCUMENT_NAME__": "Joust Guardian",
+      "actor": "modules/too-many-tokens-dnd/Helmed Horror/HelmedHorror (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Helmed Horror/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "MVEkTMHMnNsf6rxz": {
+      "__DOCUMENT_NAME__": "Elemental, Fire",
+      "actor": "modules/too-many-tokens-dnd/Fire Elemental/FireElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Fire Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "McZrbb872Ohd6o7u": {
+      "__DOCUMENT_NAME__": "Bee, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Wasp/GiantWaspBeehive (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Wasp/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MgwGpLpfzFgXxgEz": {
+      "__DOCUMENT_NAME__": "Elemental, Earth",
+      "actor": "modules/too-many-tokens-dnd/Earth Elemental/EarthElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Earth Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "NI1b4rIPgJKsLKQJ": {
+      "__DOCUMENT_NAME__": "Shambling Mound",
+      "actor": "modules/too-many-tokens-dnd/Shambling Mound/ShamblingMound (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shambling Mound/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "ODbpq02R0n8eFcGc": {
+      "__DOCUMENT_NAME__": "Goblin, Warrior",
+      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "OI2CyIrhee1JOYlv": {
+      "__DOCUMENT_NAME__": "Oni",
+      "actor": "modules/too-many-tokens-dnd/Oni/Oni (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Oni/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "OM4n0N2hftXzkcRy": {
+      "__DOCUMENT_NAME__": "Cat, Great",
+      "actor": "modules/too-many-tokens-dnd/Panther/Panther (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Panther/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "OXIrSQsloN8IRgfA": {
+      "__DOCUMENT_NAME__": "Yellow Mould",
+      "actor": "modules/too-many-tokens-dnd/Shrieker/Shrieker (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shrieker/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "OYXQp77BI8QgFh7s": {
+      "__DOCUMENT_NAME__": "Wyvern",
+      "actor": "modules/too-many-tokens-dnd/Wyvern/Wyvern (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wyvern/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "ObCy4kANqhT3rrbJ": {
+      "__DOCUMENT_NAME__": "Wolf",
+      "actor": "modules/too-many-tokens-dnd/Wolf/Wolf (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wolf/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "OdcUXkPNyJBb3We0": {
+      "__DOCUMENT_NAME__": "Lich",
+      "actor": "modules/too-many-tokens-dnd/Mummy/Mummy (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mummy/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "OtEJxfZ13jBJ1apz": {
+      "__DOCUMENT_NAME__": "Dragon, Elder - Black",
+      "actor": "modules/too-many-tokens-dnd/Young Black Dragon/YoungBlackDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Black Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "P4TI9ono7atq1wBw": {
+      "__DOCUMENT_NAME__": "Bugbear",
+      "actor": "modules/too-many-tokens-dnd/Bugbear/Bugbear (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bugbear/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PSNF8mdWgMS4hZ2E": {
+      "__DOCUMENT_NAME__": "Byakhee",
+      "actor": "modules/too-many-tokens-dnd/Vrock/Vrock (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Vrock/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Poixlfce7pZDHC8L": {
+      "__DOCUMENT_NAME__": "Amikuk",
+      "actor": "modules/too-many-tokens-dnd/Merrow/Merrow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Merrow/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "QP5xEKlWLoRQhS3t": {
+      "__DOCUMENT_NAME__": "Froghemoth",
+      "actor": "modules/too-many-tokens-dnd/Chuul/Chuul (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Chuul/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "QlBMPKwPxTNYRSfg": {
+      "__DOCUMENT_NAME__": "Demon Ray",
+      "actor": "modules/too-many-tokens-dnd/Chasme/Chasme (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Chasme/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "RCrdmkp96a9uhfT2": {
+      "__DOCUMENT_NAME__": "Golem, Stone",
+      "actor": "modules/too-many-tokens-dnd/Stone Golem/StoneGolem (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Stone Golem/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "RFENB7RObfPWSY34": {
+      "__DOCUMENT_NAME__": "Black Pudding",
+      "actor": "modules/too-many-tokens-dnd/Black Pudding/BlackPudding (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Black Pudding/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Rq6JPBgL5v88JAd0": {
+      "__DOCUMENT_NAME__": "Hydrangean",
+      "actor": "modules/too-many-tokens-dnd/Treant/TreantEvil (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Treant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "S5JBdu7eIlAWclHE": {
+      "__DOCUMENT_NAME__": "Hawk",
+      "actor": "modules/too-many-tokens-dnd/Hawk/HawkCostal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hawk/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SAuMR6M14HuSc5BS": {
+      "__DOCUMENT_NAME__": "Phoenix",
+      "actor": "modules/too-many-tokens-dnd/Fire Elemental/FireElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Fire Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "SZpO5yGzoB9FI2cM": {
+      "__DOCUMENT_NAME__": "Spider, Giant Crab",
+      "actor": "modules/too-many-tokens-dnd/Giant Spider/GiantSpider (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Spider/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SiJJtJPafn0XdVSO": {
+      "__DOCUMENT_NAME__": "Thulhan",
+      "actor": "modules/too-many-tokens-dnd/Aboleth/AbolethAberration (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Aboleth/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SvrccBltWb6a6zqw": {
+      "__DOCUMENT_NAME__": "Ooze, Blood",
+      "actor": "modules/too-many-tokens-dnd/Ochre Jelly/OchreJelly (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ochre Jelly/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "T2fW1gvdOsDS4D5J": {
+      "__DOCUMENT_NAME__": "Wolf in Sheep's Clothing",
+      "actor": "modules/too-many-tokens-dnd/Mimic/MimicAltar (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mimic/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "TDwppLCtTNicN0kx": {
+      "__DOCUMENT_NAME__": "Living Statue, Rock",
+      "actor": "modules/too-many-tokens-dnd/Gargoyle/Gargoyle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gargoyle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "TeXpYvmYgkwz7Rkd": {
+      "__DOCUMENT_NAME__": "Church Grim",
+      "actor": "modules/too-many-tokens-dnd/Worg/Worg (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Worg/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Tpxw3uVrHbwDUmG2": {
+      "__DOCUMENT_NAME__": "Mimic",
+      "actor": "modules/too-many-tokens-dnd/Mimic/MimicAltar (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mimic/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "TtjXGTTkkmhnyxmp": {
+      "__DOCUMENT_NAME__": "Bear",
+      "actor": "modules/too-many-tokens-dnd/Brown Bear/BrownBearCave (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Brown Bear/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "UpPKdvIZe9N3MH2B": {
+      "__DOCUMENT_NAME__": "Viper Tree",
+      "actor": "modules/too-many-tokens-dnd/Awakened Tree/AwakenedTree (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Awakened Tree/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Uylf41QzuircJejb": {
+      "__DOCUMENT_NAME__": "Dragon, Young - Black",
+      "actor": "modules/too-many-tokens-dnd/Young Black Dragon/YoungBlackDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Black Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "V9e8mIbkjjc0QRSj": {
+      "__DOCUMENT_NAME__": "Dragon, Hatchling - Red",
+      "actor": "modules/too-many-tokens-dnd/Red Dragon Wyrmling/RedDragonWyrmling (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Red Dragon Wyrmling/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "VfJhWuklmjdqGn6j": {
+      "__DOCUMENT_NAME__": "Centipede, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Centipede/GiantCentipede (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Centipede/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "W5kmv1bYrErmzoUI": {
+      "__DOCUMENT_NAME__": "Golem, Clay",
+      "actor": "modules/too-many-tokens-dnd/Clay Golem/ClayGolem (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Clay Golem/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "WPWcwr72e6bVPaAx": {
+      "__DOCUMENT_NAME__": "Efreeti",
+      "actor": "modules/too-many-tokens-dnd/Fire Giant/FireGiantFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Fire Giant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "WcINvXEZIYp4rO4s": {
+      "__DOCUMENT_NAME__": "Jarjacha",
+      "actor": "modules/too-many-tokens-dnd/Death Dog/DeathDog (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Death Dog/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Wpi6ETJ6izgT1aOo": {
+      "__DOCUMENT_NAME__": "Wolf, Winter",
+      "actor": "modules/too-many-tokens-dnd/Winter Wolf/WinterWolf (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Winter Wolf/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "X5SxKCZtI5jCWBK4": {
+      "__DOCUMENT_NAME__": "Necrophidius",
+      "actor": "modules/too-many-tokens-dnd/Bone Naga/BoneNaga (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bone Naga/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "XJXb7O120A5ewg1N": {
+      "__DOCUMENT_NAME__": "Warp Beast",
+      "actor": "modules/too-many-tokens-dnd/Displacer Beast/DisplacerBeast (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Displacer Beast/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "XPOst99o80XqI6KY": {
+      "__DOCUMENT_NAME__": "Snake, Cobra",
+      "actor": "modules/too-many-tokens-dnd/Poisonous Snake/PoisonousSnakeDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Poisonous Snake/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "XaZlVpSeim63R5a4": {
+      "__DOCUMENT_NAME__": "Doppelgänger",
+      "actor": "modules/too-many-tokens-dnd/Doppelganger/Doppelganger (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Doppelganger/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Xc30d0v7k9g20Nmu": {
+      "__DOCUMENT_NAME__": "Stone Colossus",
+      "actor": "modules/too-many-tokens-dnd/Stone Giant/StoneGiantFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Stone Giant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "XqDi7xhYi8r25Eu7": {
+      "__DOCUMENT_NAME__": "Stolas Demon",
+      "actor": "modules/too-many-tokens-dnd/Vrock/Vrock (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Vrock/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "XqPwjVW3k3xNa9Ht": {
+      "__DOCUMENT_NAME__": "Elemental, Greater Fire",
+      "actor": "modules/too-many-tokens-dnd/Fire Elemental/FireElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Fire Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "XwB5yGfy00XW8UUp": {
+      "__DOCUMENT_NAME__": "Cattle",
+      "actor": "modules/too-many-tokens-dnd/Goat/GoatGrassland (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "XwTiSBdAiTX6XVqp": {
+      "__DOCUMENT_NAME__": "Quetzalcoatlus",
+      "actor": "modules/too-many-tokens-dnd/Pteranodon/Pteranodon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pteranodon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Y3Y7L4mPVrcxG9O9": {
+      "__DOCUMENT_NAME__": "Giant, Stone",
+      "actor": "modules/too-many-tokens-dnd/Stone Giant/StoneGiantFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Stone Giant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "YA8mo48WNHLm6saq": {
+      "__DOCUMENT_NAME__": "Velociraptor",
+      "actor": "modules/too-many-tokens-dnd/Allosaurus/Allosaurus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Allosaurus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "YCnTX125wazTwDGe": {
+      "__DOCUMENT_NAME__": "Ochre Jelly",
+      "actor": "modules/too-many-tokens-dnd/Ochre Jelly/OchreJelly (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ochre Jelly/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "YgS0rbltXaYdNsb9": {
+      "__DOCUMENT_NAME__": "Rust Monster",
+      "actor": "modules/too-many-tokens-dnd/Rust Monster/RustMonster (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rust Monster/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ZNYqDZ9n236roSBY": {
+      "__DOCUMENT_NAME__": "Dragon, Elder - White",
+      "actor": "modules/too-many-tokens-dnd/Young White Dragon/YoungWhiteDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young White Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "ZSzkV0ojXvGImY34": {
+      "__DOCUMENT_NAME__": "Tyrannosaurus Rex",
+      "actor": "modules/too-many-tokens-dnd/Tyrannosaurus Rex/TyrannosaurusRex (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Tyrannosaurus Rex/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "ZVKHvtT8HSgrZSej": {
+      "__DOCUMENT_NAME__": "Giant, Cyclops",
+      "actor": "modules/too-many-tokens-dnd/Cyclops/CyclopsFemaleDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cyclops/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "ZXpSxKZH1Zj3fBcP": {
+      "__DOCUMENT_NAME__": "Hag, Green",
+      "actor": "modules/too-many-tokens-dnd/Green Hag/GreenHag (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Green Hag/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ZhhuGoH4rFRiiaPp": {
+      "__DOCUMENT_NAME__": "Vigzud",
+      "actor": "modules/too-many-tokens-dnd/Troglodyte/Troglodyte (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Troglodyte/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "a8j1GTqT0qCjP5c4": {
+      "__DOCUMENT_NAME__": "Minotaur",
+      "actor": "modules/too-many-tokens-dnd/Minotaur/MinotaurFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Minotaur/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "aAONbN10F5bLslSE": {
+      "__DOCUMENT_NAME__": "Agnar",
+      "actor": "modules/too-many-tokens-dnd/Yeti/Yeti (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Yeti/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "aK6Z8qAChqIblIfM": {
+      "__DOCUMENT_NAME__": "Dobar-Chú",
+      "actor": "modules/too-many-tokens-dnd/Displacer Beast/DisplacerBeast (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Displacer Beast/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "aSUaMBRdv6PsFx8Q": {
+      "__DOCUMENT_NAME__": "Roc",
+      "actor": "modules/too-many-tokens-dnd/Giant Eagle/GiantEagle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Eagle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "ai3fTv3zFIGJByPn": {
+      "__DOCUMENT_NAME__": "Horse, War",
+      "actor": "modules/too-many-tokens-dnd/Warhorse/Warhorse (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Warhorse/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "ayNwvOBMadPIikBb": {
+      "__DOCUMENT_NAME__": "Agropelter",
+      "actor": "modules/too-many-tokens-dnd/Satyr/Satyr (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Satyr/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "b8UREGXp4ESbUZQj": {
+      "__DOCUMENT_NAME__": "Horse, Riding",
+      "actor": "modules/too-many-tokens-dnd/Riding Horse/RidingHorse (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Riding Horse/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "bI1V6pqJkiiIGEYJ": {
+      "__DOCUMENT_NAME__": "Purple Worm",
+      "actor": "modules/too-many-tokens-dnd/Purple Worm/PurpleWorm (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Purple Worm/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "bQRYqctiGqfLigDQ": {
+      "__DOCUMENT_NAME__": "Beetle, Giant Fire",
+      "actor": "modules/too-many-tokens-dnd/Giant Fire Beetle/GiantFireBeetle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Fire Beetle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "bemYbAdPHWUkA2Xi": {
+      "__DOCUMENT_NAME__": "Shark, Great White",
+      "actor": "modules/too-many-tokens-dnd/Hunter Shark/HunterShark (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hunter Shark/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "bjjglKk2aSt1kqL6": {
+      "__DOCUMENT_NAME__": "Wolf, Dire",
+      "actor": "modules/too-many-tokens-dnd/Dire Wolf/DireWolfSummer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Dire Wolf/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "bkADyFuc1qzUBCEP": {
+      "__DOCUMENT_NAME__": "Hippogriff",
+      "actor": "modules/too-many-tokens-dnd/Hippogriff/HippogriffArmored (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hippogriff/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "bu9vHDopcT6WfCB1": {
+      "__DOCUMENT_NAME__": "Rot Grub",
+      "actor": "modules/too-many-tokens-dnd/Swarm of Beetles/SwarmOfBeetles (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Swarm of Beetles/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "cClSRTp1wi5nKiTn": {
+      "__DOCUMENT_NAME__": "Kobold",
+      "actor": "modules/too-many-tokens-dnd/Kobold/KoboldArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Kobold/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "cF5pczTJMIq2Uk0K": {
+      "__DOCUMENT_NAME__": "Darkmantle",
+      "actor": "modules/too-many-tokens-dnd/Darkmantle/DarkMantleDark (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Darkmantle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "cNk4q1zCVyOdhZts": {
+      "__DOCUMENT_NAME__": "Troll",
+      "actor": "modules/too-many-tokens-dnd/Troll/TrollMountains (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Troll/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "cRFXD2Of4WwaanVK": {
+      "__DOCUMENT_NAME__": "Brownie",
+      "actor": "modules/too-many-tokens-dnd/Sprite/SpriteBowFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sprite/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "cUT2qxNSbgNpwhOT": {
+      "__DOCUMENT_NAME__": "Dragon, Young - White",
+      "actor": "modules/too-many-tokens-dnd/Young White Dragon/YoungWhiteDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young White Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "dEVG8wVR7MfyZgv9": {
+      "__DOCUMENT_NAME__": "Elephant",
+      "actor": "modules/too-many-tokens-dnd/Elephant/ElephantGrassland (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Elephant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "dGCcOIF0MbUWuTIe": {
+      "__DOCUMENT_NAME__": "Peryton",
+      "actor": "modules/too-many-tokens-dnd/Peryton/PerytonCoastal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Peryton/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "eSxup7PeewOpxVft": {
+      "__DOCUMENT_NAME__": "Spider, Giant Tarantella",
+      "actor": "modules/too-many-tokens-dnd/Giant Spider/GiantSpider (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Spider/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "eb6eSw47fMgSb2Dz": {
+      "__DOCUMENT_NAME__": "Griffon",
+      "actor": "modules/too-many-tokens-dnd/Griffon/Griffon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Griffon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "eim4ggishfz85XVX": {
+      "__DOCUMENT_NAME__": "Dragon, Ancient - White",
+      "actor": "modules/too-many-tokens-dnd/Young White Dragon/YoungWhiteDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young White Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "f3WRM4LB2A6Lulew": {
+      "__DOCUMENT_NAME__": "Dragon, Hatchling - Blue",
+      "actor": "modules/too-many-tokens-dnd/Blue Dragon Wyrmling/BlueDragonWyrmling (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Blue Dragon Wyrmling/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "fCH7Tzir9ujPavZ3": {
+      "__DOCUMENT_NAME__": "Basilisk",
+      "actor": "modules/too-many-tokens-dnd/Basilisk/Basilisk (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Basilisk/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "fH1TAjmzFTDXdlHF": {
+      "__DOCUMENT_NAME__": "Dragon, Elder - Green",
+      "actor": "modules/too-many-tokens-dnd/Young Green Dragon/YoungGreenDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Green Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "fM1JjKdHbzQVm1rI": {
+      "__DOCUMENT_NAME__": "Rat, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Rat/GiantRatForest (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Rat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "gJlZhYArQK0sg2er": {
+      "__DOCUMENT_NAME__": "Hobgoblin",
+      "actor": "modules/too-many-tokens-dnd/Hobgoblin/HobgoblinArmycampMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hobgoblin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "gMKwv81k8AHuZBk0": {
+      "__DOCUMENT_NAME__": "Golem, Flesh",
+      "actor": "modules/too-many-tokens-dnd/Flesh Golem/FleshGolem (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Flesh Golem/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "gOWR3pPKIEMyriVy": {
+      "__DOCUMENT_NAME__": "Dragon, Elder - Red",
+      "actor": "modules/too-many-tokens-dnd/Young Red Dragon/YoungRedDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Red Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "gYBtO8FpqNSE26so": {
+      "__DOCUMENT_NAME__": "Scarecrow",
+      "actor": "modules/too-many-tokens-dnd/Scarecrow/Scarecrow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Scarecrow/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "gnz6BaC1eD9hgHka": {
+      "__DOCUMENT_NAME__": "Dragon, Hatchling - Black",
+      "actor": "modules/too-many-tokens-dnd/Black Dragon Wyrmling/BlackDragonWyrmling (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Black Dragon Wyrmling/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "gpu0T0RHM0TvQO5U": {
+      "__DOCUMENT_NAME__": "Ooze, Quicksilver",
+      "actor": "modules/too-many-tokens-dnd/Gelatinous Cube/GelatinousCubeInvisible (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gelatinous Cube/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "gt8W22bMxmlzXVXi": {
+      "__DOCUMENT_NAME__": "Living Statue, Iron",
+      "actor": "modules/too-many-tokens-dnd/Helmed Horror/HelmedHorror (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Helmed Horror/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "hAkT666Zj6PpoQeB": {
+      "__DOCUMENT_NAME__": "Dragon, Hatchling - White",
+      "actor": "modules/too-many-tokens-dnd/White Dragon Wyrmling/WhiteDragonWyrmling (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/White Dragon Wyrmling/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "hK1ium0CxnRa06ba": {
+      "__DOCUMENT_NAME__": "Elemental, Lesser Earth",
+      "actor": "modules/too-many-tokens-dnd/Earth Elemental/EarthElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Earth Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "hLO69Zjvz7WaJAmO": {
+      "__DOCUMENT_NAME__": "Zombie, Boomer",
+      "actor": "modules/too-many-tokens-dnd/Zombie/ZombieDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Zombie/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "hoo4mqGpqwc1cJA5": {
+      "__DOCUMENT_NAME__": "Nightmare",
+      "actor": "modules/too-many-tokens-dnd/Nightmare/Nightmare (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Nightmare/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "hpvz01W4mhKZDyrq": {
+      "__DOCUMENT_NAME__": "Otyugh",
+      "actor": "modules/too-many-tokens-dnd/Rust Monster/RustMonster (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rust Monster/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "iDD1iA0svCS8AINS": {
+      "__DOCUMENT_NAME__": "Gibbering Mouther",
+      "actor": "modules/too-many-tokens-dnd/Gibbering Mouther/GibberingMouther (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gibbering Mouther/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "iHkYA8Y2dGZ5bOXb": {
+      "__DOCUMENT_NAME__": "Roper",
+      "actor": "modules/too-many-tokens-dnd/Roper/Roper (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Roper/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "ivaexVLsiJiQlx9L": {
+      "__DOCUMENT_NAME__": "Electric Eel",
+      "actor": "modules/too-many-tokens-dnd/Giant Constrictor Snake/GiantConstrictorSnakeDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Constrictor Snake/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "iyCEulXgz8uABmdD": {
+      "__DOCUMENT_NAME__": "Ogler",
+      "actor": "modules/too-many-tokens-dnd/Spectator/Spectator (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Spectator/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "j96QNTFGxzOdM20K": {
+      "__DOCUMENT_NAME__": "Chimera",
+      "actor": "modules/too-many-tokens-dnd/Chimera/Chimera (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Chimera/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "j9pfmlTLheG41ABq": {
+      "__DOCUMENT_NAME__": "Frog/Toad, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Frog/GiantFrog (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Frog/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "jO00LGH0j3HNTGve": {
+      "__DOCUMENT_NAME__": "Mermaid",
+      "actor": "modules/too-many-tokens-dnd/Merfolk/MerfolkFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Merfolk/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "jlHvHvDg3eWkNDNb": {
+      "__DOCUMENT_NAME__": "Scorpion, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Scorpion/GiantScorpion (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Scorpion/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "jrG1IUD7M1Fkv0Nl": {
+      "__DOCUMENT_NAME__": "Firebat",
+      "actor": "modules/too-many-tokens-dnd/Giant Bat/GiantBat (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Bat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "k3EwC9SOab0RkAOM": {
+      "__DOCUMENT_NAME__": "Mastodon",
+      "actor": "modules/too-many-tokens-dnd/Mammoth/Mammoth (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mammoth/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "kC1nLXnixm7d7O6p": {
+      "__DOCUMENT_NAME__": "Ettercap",
+      "actor": "modules/too-many-tokens-dnd/Ettercap/Ettercap (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ettercap/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "kFvtJftws2UsK1rE": {
+      "__DOCUMENT_NAME__": "Thunderfoot",
+      "actor": "modules/too-many-tokens-dnd/Mammoth/Mammoth (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mammoth/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "kcqeeuQ2oDfyKaak": {
+      "__DOCUMENT_NAME__": "Brollachan",
+      "actor": "modules/too-many-tokens-dnd/Shadow/Shadow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shadow/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "kdkY2n6gMSQLT5Tr": {
+      "__DOCUMENT_NAME__": "Rat",
+      "actor": "modules/too-many-tokens-dnd/Rat/RatSwamp (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "kj19gjrvuuO3lUjK": {
+      "__DOCUMENT_NAME__": "Aurumvorax",
+      "actor": "modules/too-many-tokens-dnd/Badger/Badger (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Badger/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "klRBWjiNUz7GlVAb": {
+      "__DOCUMENT_NAME__": "Werewolf",
+      "actor": "modules/too-many-tokens-dnd/Werewolf/Werewolf (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Werewolf/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "l0R5eP2Gp0WC6QPq": {
+      "__DOCUMENT_NAME__": "Flying Sword",
+      "actor": "modules/too-many-tokens-dnd/Flying Sword/FlyingSwordMace (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Flying Sword/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "lQ3dyK9D9KJAQ3YD": {
+      "__DOCUMENT_NAME__": "Carbuncle",
+      "actor": "modules/too-many-tokens-dnd/Pseudodragon/PseudodragonCoastal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pseudodragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "m8NmLilJ7kskGiLU": {
+      "__DOCUMENT_NAME__": "Imp",
+      "actor": "modules/too-many-tokens-dnd/Imp/Imp (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Imp/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "m8Q6WWcR8LGOFJde": {
+      "__DOCUMENT_NAME__": "Wraith",
+      "actor": "modules/too-many-tokens-dnd/Wraith/Wraith (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wraith/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "mCt7qRrjmd5hipbl": {
+      "__DOCUMENT_NAME__": "Hydra",
+      "actor": "modules/too-many-tokens-dnd/Hydra/Hydra (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hydra/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "mPEirZNos2d7EOoJ": {
+      "__DOCUMENT_NAME__": "Dethbat",
+      "actor": "modules/too-many-tokens-dnd/Giant Bat/GiantBat (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Bat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "mRKPp10Yiq0n7ddR": {
+      "__DOCUMENT_NAME__": "Treant",
+      "actor": "modules/too-many-tokens-dnd/Treant/TreantEvil (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Treant/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "mdtMIAyn3qMINoyD": {
+      "__DOCUMENT_NAME__": "Bulette",
+      "actor": "modules/too-many-tokens-dnd/Bulette/Bulette (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bulette/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "mfXiP8SZOBYuin8r": {
+      "__DOCUMENT_NAME__": "Bat, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Bat/GiantBat (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Bat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "mv0wyiZlTaFnxa7r": {
+      "__DOCUMENT_NAME__": "Questing Beast",
+      "actor": "modules/too-many-tokens-dnd/Chimera/Chimera (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Chimera/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "myX3mcLd7SWBpFku": {
+      "__DOCUMENT_NAME__": "Beetle, Bombardier",
+      "actor": "modules/too-many-tokens-dnd/Giant Fire Beetle/GiantFireBeetle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Fire Beetle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "mzHfFclIaG0WIeUi": {
+      "__DOCUMENT_NAME__": "Kraken",
+      "actor": "modules/too-many-tokens-dnd/Giant Octopus/GiantOctopus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Octopus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "nTDQhDi3B8l7kMUB": {
+      "__DOCUMENT_NAME__": "Rhagodessa",
+      "actor": "modules/too-many-tokens-dnd/Giant Spider/GiantSpider (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Spider/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "nUCpW08PbeCZ3wxG": {
+      "__DOCUMENT_NAME__": "Blink Dog",
+      "actor": "modules/too-many-tokens-dnd/Blink Dog/BlinkDogRunning (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Blink Dog/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "nVvh3rM6agI6zwek": {
+      "__DOCUMENT_NAME__": "Vampire",
+      "actor": "modules/too-many-tokens-dnd/Vampire Spawn/VampireSpawnDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Vampire Spawn/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "nYO6xGYPRmtNuhV9": {
+      "__DOCUMENT_NAME__": "Air Bubble",
+      "actor": "modules/too-many-tokens-dnd/Gas Spore/GasSpore (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gas Spore/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "nZBfS7RH0A7N9v11": {
+      "__DOCUMENT_NAME__": "Dragon, Elder - Blue",
+      "actor": "modules/too-many-tokens-dnd/Young Blue Dragon/YoungBlueDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Blue Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "ni0WqqZrr9OzwdSd": {
+      "__DOCUMENT_NAME__": "Deer",
+      "actor": "modules/too-many-tokens-dnd/Deer/Deer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Deer/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "niDTL17izgqngzej": {
+      "__DOCUMENT_NAME__": "Wererat",
+      "actor": "modules/too-many-tokens-dnd/Wererat/Wererat (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wererat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "nmjWVM9zzRXsEuCZ": {
+      "__DOCUMENT_NAME__": "Gremlin",
+      "actor": "modules/too-many-tokens-dnd/Imp/Imp (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Imp/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "nnB577RG4wcLJN3y": {
+      "__DOCUMENT_NAME__": "Frog/Toad",
+      "actor": "modules/too-many-tokens-dnd/Frog/Frog (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Frog/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "oDROHzNC8xZ4HY5m": {
+      "__DOCUMENT_NAME__": "Hag, Sea",
+      "actor": "modules/too-many-tokens-dnd/Sea Hag/SeaHag (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sea Hag/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "oM0nBpVMFBGrGlbz": {
+      "__DOCUMENT_NAME__": "Gargoyle",
+      "actor": "modules/too-many-tokens-dnd/Gargoyle/Gargoyle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gargoyle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "oUsPWK1hrCZ0C7SP": {
+      "__DOCUMENT_NAME__": "Invisible Stalker",
+      "actor": "modules/too-many-tokens-dnd/Invisible Stalker/InvisibleStalker (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Invisible Stalker/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ousYRudW4JSmruXi": {
+      "__DOCUMENT_NAME__": "Snallygaster",
+      "actor": "modules/too-many-tokens-dnd/Cockatrice/Cockatrice (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cockatrice/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "pRONIekLAiAAEp4e": {
+      "__DOCUMENT_NAME__": "Sphinx",
+      "actor": "modules/too-many-tokens-dnd/Sphinx/Sphinx (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sphinx/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "pRwsDQBP6ck8LuWs": {
+      "__DOCUMENT_NAME__": "Dog, Medium",
+      "actor": "modules/too-many-tokens-dnd/Mastiff/Mastiff (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mastiff/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "peS6wk3Zv8WiS5Dd": {
+      "__DOCUMENT_NAME__": "Dragon, Ancient - Black",
+      "actor": "modules/too-many-tokens-dnd/Young Black Dragon/YoungBlackDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Black Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "pjgK1vqOzpVobYj0": {
+      "__DOCUMENT_NAME__": "Magmot",
+      "actor": "modules/too-many-tokens-dnd/Magmin/Magmin (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Magmin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "ptHOZjMHox7xssPa": {
+      "__DOCUMENT_NAME__": "Snake, Giant Constrictor",
+      "actor": "modules/too-many-tokens-dnd/Giant Constrictor Snake/GiantConstrictorSnakeDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Constrictor Snake/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "pvwYATClTGQw2qgU": {
+      "__DOCUMENT_NAME__": "Crayfish, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Crab/GiantCrab (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Crab/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "qMlyP6vGm2ZAQx3W": {
+      "__DOCUMENT_NAME__": "Almiraj",
+      "actor": "modules/too-many-tokens-dnd/Giant Rat/GiantRatForest (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Rat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "qNPV7PkPDVdXdCJ4": {
+      "__DOCUMENT_NAME__": "Dungeonheart",
+      "actor": "modules/too-many-tokens-dnd/Shambling Mound/ShamblingMound (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shambling Mound/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "qi6QdSz3VDqGVx9X": {
+      "__DOCUMENT_NAME__": "Catoblepas",
+      "actor": "modules/too-many-tokens-dnd/Gorgon/Gorgon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gorgon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "qoDcl5FH8moHJYq9": {
+      "__DOCUMENT_NAME__": "Potead, Large",
+      "actor": "modules/too-many-tokens-dnd/Awakened Tree/AwakenedTree (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Awakened Tree/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "qtKz79tM6rnnKOq8": {
+      "__DOCUMENT_NAME__": "Goblin, Archer",
+      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "rCrUMFfwgaBaii4d": {
+      "__DOCUMENT_NAME__": "Living Statue, Crystal",
+      "actor": "modules/too-many-tokens-dnd/Shield Guardian/ShieldGuardian (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shield Guardian/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "rCwEUw6tad40GBYw": {
+      "__DOCUMENT_NAME__": "Drake",
+      "actor": "modules/too-many-tokens-dnd/Pseudodragon/PseudodragonCoastal (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Pseudodragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "rdXUVjQNJjZoXuNE": {
+      "__DOCUMENT_NAME__": "Flail Snail",
+      "actor": "modules/too-many-tokens-dnd/Flumph/Flumph (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Flumph/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "s62GZ293jOYSyOzO": {
+      "__DOCUMENT_NAME__": "Ghoul",
+      "actor": "modules/too-many-tokens-dnd/Ghoul/GhoulFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ghoul/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "sG44of9DOFFzorqC": {
+      "__DOCUMENT_NAME__": "Ogre",
+      "actor": "modules/too-many-tokens-dnd/Ogre/Ogre (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Ogre/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "sI2DQeLhYZsybo0m": {
+      "__DOCUMENT_NAME__": "Hippocampus",
+      "actor": "modules/too-many-tokens-dnd/Sea Horse/SeaHorse (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Sea Horse/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "sKTQolDkwr6rAq0O": {
+      "__DOCUMENT_NAME__": "Lizard, Giant Gecko",
+      "actor": "modules/too-many-tokens-dnd/Giant Lizard/GiantLizardSwamp (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Lizard/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "ssbUeRw0VM03vk6b": {
+      "__DOCUMENT_NAME__": "Dog, Small",
+      "actor": "modules/too-many-tokens-dnd/Jackal/JackalDesert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Jackal/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "svzEPBpYY23Vg0Dg": {
+      "__DOCUMENT_NAME__": "Bat",
+      "actor": "modules/too-many-tokens-dnd/Bat/Bat (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bat/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "tYaJPSfXV1L18hRM": {
+      "__DOCUMENT_NAME__": "Badger",
+      "actor": "modules/too-many-tokens-dnd/Badger/Badger (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Badger/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "tkWK2yke2Jj4OC4w": {
+      "__DOCUMENT_NAME__": "Whale, Killer",
+      "actor": "modules/too-many-tokens-dnd/Killer Whale/KillerWhale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Killer Whale/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "tox2rxTF7WFaqSJk": {
+      "__DOCUMENT_NAME__": "Pit Fiend",
+      "actor": "modules/too-many-tokens-dnd/Barbed Devil/BarbedDevil (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Barbed Devil/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "trLqdRvjz70izXqj": {
+      "__DOCUMENT_NAME__": "Dragon, Young - Blue",
+      "actor": "modules/too-many-tokens-dnd/Young Blue Dragon/YoungBlueDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Blue Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "txlrPzpyjCW7Un16": {
+      "__DOCUMENT_NAME__": "Phorusrhacos",
+      "actor": "modules/too-many-tokens-dnd/Axe Beak/AxeBeak (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Axe Beak/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "tzcSHcrAb3ht8Xu2": {
+      "__DOCUMENT_NAME__": "Achaierai",
+      "actor": "modules/too-many-tokens-dnd/Axe Beak/AxeBeak (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Axe Beak/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "u7dDldbTI4t7OzfO": {
+      "__DOCUMENT_NAME__": "Slug, Giant",
+      "actor": "modules/too-many-tokens-dnd/Gray Ooze/GrayOozeDissolving (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gray Ooze/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "uHLuS9QzxsZiqviW": {
+      "__DOCUMENT_NAME__": "Boar",
+      "actor": "modules/too-many-tokens-dnd/Boar/BoarField (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Boar/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "uIRiPIcdtl00VHdb": {
+      "__DOCUMENT_NAME__": "Golem, Iron",
+      "actor": "modules/too-many-tokens-dnd/Helmed Horror/HelmedHorror (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Helmed Horror/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "uP9PU5GjMzJnsxIs": {
+      "__DOCUMENT_NAME__": "Unicorn",
+      "actor": "modules/too-many-tokens-dnd/Unicorn/Unicorn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Unicorn/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "vEW7TmLM86ZiFWRX": {
+      "__DOCUMENT_NAME__": "Satyr",
+      "actor": "modules/too-many-tokens-dnd/Satyr/Satyr (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Satyr/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "veGvTkYC104yHS0D": {
+      "__DOCUMENT_NAME__": "Grim Reaper",
+      "actor": "modules/too-many-tokens-dnd/Wraith/Wraith (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Wraith/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "vfYUYLbge9paLQvO": {
+      "__DOCUMENT_NAME__": "Zotz, Demon",
+      "actor": "modules/too-many-tokens-dnd/Chasme/Chasme (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Chasme/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "voStbqLKsCCFOaoW": {
+      "__DOCUMENT_NAME__": "Piercer",
+      "actor": "modules/too-many-tokens-dnd/Piercer/Piercer (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Piercer/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "vyABoU3fvkulDHHq": {
+      "__DOCUMENT_NAME__": "Sea Serpent",
+      "actor": "modules/too-many-tokens-dnd/Plesiosaurus/Plesiosaurus (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Plesiosaurus/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "wKPKn9Xuvj4SJA6I": {
+      "__DOCUMENT_NAME__": "Hodag",
+      "actor": "modules/too-many-tokens-dnd/Bulette/Bulette (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bulette/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "wNK06vFyHkFkvgLO": {
+      "__DOCUMENT_NAME__": "Zombie",
+      "actor": "modules/too-many-tokens-dnd/Zombie/ZombieDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Zombie/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "wZ1lpFv59kCH9Pxj": {
+      "__DOCUMENT_NAME__": "Nymph",
+      "actor": "modules/too-many-tokens-dnd/Dryad/Dryad (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Dryad/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "wdqCpTf6IvtPLc80": {
+      "__DOCUMENT_NAME__": "Beetle, Giant Tiger",
+      "actor": "modules/too-many-tokens-dnd/Giant Fire Beetle/GiantFireBeetle (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Fire Beetle/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "wensvnWLoQYUQbdX": {
+      "__DOCUMENT_NAME__": "Dragon, Hatchling - Green",
+      "actor": "modules/too-many-tokens-dnd/Green Dragon Wyrmling/GreenDragonWyrmling (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Green Dragon Wyrmling/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "whdFCj27KB6OnkRI": {
+      "__DOCUMENT_NAME__": "Rhinoceros",
+      "actor": "modules/too-many-tokens-dnd/Rhinoceros/Rhinoceros (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Rhinoceros/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "wvsqs13wZtUTrU69": {
+      "__DOCUMENT_NAME__": "Orc",
+      "actor": "modules/too-many-tokens-dnd/Orc/OrcArcticAxe (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Orc/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "x6LlT39h6rhvtCQi": {
+      "__DOCUMENT_NAME__": "Elemental, Greater Water",
+      "actor": "modules/too-many-tokens-dnd/Water Elemental/WaterElementalSea (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Water Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "xHpwskXYzh0g8ig6": {
+      "__DOCUMENT_NAME__": "Mummy",
+      "actor": "modules/too-many-tokens-dnd/Mummy/Mummy (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mummy/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "xwAfbjZqqVzOyEAI": {
+      "__DOCUMENT_NAME__": "Vortex",
+      "actor": "modules/too-many-tokens-dnd/Air Elemental/AirElementalDessert (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Air Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "xx33Zy89J7w2Jbmf": {
+      "__DOCUMENT_NAME__": "Elemental, Greater Earth",
+      "actor": "modules/too-many-tokens-dnd/Earth Elemental/EarthElemental (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Earth Elemental/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "yJbVHu4txMW9HyRG": {
+      "__DOCUMENT_NAME__": "Crab, Giant",
+      "actor": "modules/too-many-tokens-dnd/Giant Crab/GiantCrab (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Giant Crab/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "yn22rgWJrAqwqAV0": {
+      "__DOCUMENT_NAME__": "Snakeman",
+      "actor": "modules/too-many-tokens-dnd/Yuan-ti Pureblood/YuanTiPurebloodFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Yuan-ti Pureblood/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "yw0kCRbsAd5SyI2D": {
+      "__DOCUMENT_NAME__": "Triffid",
+      "actor": "modules/too-many-tokens-dnd/Vine Blight/VineBlight (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Vine Blight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "zGwkpzRePCVK8HQE": {
+      "__DOCUMENT_NAME__": "Harpy",
+      "actor": "modules/too-many-tokens-dnd/Harpy/Harpy (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Harpy/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "zJTSUTgRHCA1233u": {
+      "__DOCUMENT_NAME__": "Shadow",
+      "actor": "modules/too-many-tokens-dnd/Shadow/Shadow (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Shadow/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "zbCW1iYfN0KJhdJF": {
+      "__DOCUMENT_NAME__": "Cave Fisher",
+      "actor": "modules/too-many-tokens-dnd/Hook Horror/HookHorror (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Hook Horror/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "zbkj3u7LKu7obIZF": {
+      "__DOCUMENT_NAME__": "Alligator/Crocodile",
+      "actor": "modules/too-many-tokens-dnd/Crocodile/CrocodileSewers (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Crocodile/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "zwwV8fXQhYzPQfKp": {
+      "__DOCUMENT_NAME__": "Dragon, Ancient - Blue",
+      "actor": "modules/too-many-tokens-dnd/Young Blue Dragon/YoungBlueDragon (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Young Blue Dragon/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 4,
+        "height": 4
+      }
+    }
+  },
+  "vagabond.humanlike": {
+    "08CoNr8b1bWeNhVx": {
+      "__DOCUMENT_NAME__": "Assassin",
+      "actor": "modules/too-many-tokens-dnd/Assassin/Assassin (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Assassin/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "1mTDoi8ei7OS5F7K": {
+      "__DOCUMENT_NAME__": "Brigand",
+      "actor": "modules/too-many-tokens-dnd/Bandit/BanditDragonbornArcticMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bandit/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "3NH0htaYJBRV1kxt": {
+      "__DOCUMENT_NAME__": "Thug",
+      "actor": "modules/too-many-tokens-dnd/Thug/ThugDragonbornMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Thug/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "9ExaW25RRMJOI5Du": {
+      "__DOCUMENT_NAME__": "Bandit",
+      "actor": "modules/too-many-tokens-dnd/Bandit/BanditDragonbornArcticMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Bandit/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "AemomWxuMN4xtRCO": {
+      "__DOCUMENT_NAME__": "Acolyte",
+      "actor": "modules/too-many-tokens-dnd/Acolyte/AcolyteDarkDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Acolyte/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "K45kmnZ6IcAREhIa": {
+      "__DOCUMENT_NAME__": "Guard",
+      "actor": "modules/too-many-tokens-dnd/Guard/GuardDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Guard/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LSTCLWY5BPRYAsYH": {
+      "__DOCUMENT_NAME__": "Gladiator",
+      "actor": "modules/too-many-tokens-dnd/Gladiator/GladiatorDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Gladiator/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Pgeg3m1KSHSgZFSE": {
+      "__DOCUMENT_NAME__": "Scout",
+      "actor": "modules/too-many-tokens-dnd/Scout/ScoutDragonbornArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Scout/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "R2nIHe2d2FGZ2y6b": {
+      "__DOCUMENT_NAME__": "Mage, Fire",
+      "actor": "modules/too-many-tokens-dnd/Mage/MageDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mage/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Xb2FnkVT17Wxdvvs": {
+      "__DOCUMENT_NAME__": "Apothecary",
+      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerDragonbornArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Commoner/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "aD4znybU2n2ezbdF": {
+      "__DOCUMENT_NAME__": "Warlord",
+      "actor": "modules/too-many-tokens-dnd/Knight/KightHalflingFemaleGood (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Knight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "dkIeYNQafNyYpUqx": {
+      "__DOCUMENT_NAME__": "Cultist",
+      "actor": "modules/too-many-tokens-dnd/Cultist/CultistForest (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Cultist/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ggnyh61eqHCSYSlf": {
+      "__DOCUMENT_NAME__": "Knight",
+      "actor": "modules/too-many-tokens-dnd/Knight/KightHalflingFemaleGood (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Knight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "iNyB5vndkNTYts7z": {
+      "__DOCUMENT_NAME__": "Commoner",
+      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerDragonbornArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Commoner/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ibWhCUOSu77wCpLM": {
+      "__DOCUMENT_NAME__": "Mage, Shock",
+      "actor": "modules/too-many-tokens-dnd/Mage/MageDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mage/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "t4LwKjA1gDld7TgW": {
+      "__DOCUMENT_NAME__": "Noble",
+      "actor": "modules/too-many-tokens-dnd/Noble/NobleDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Noble/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "tdntLkl8mjrX8Yfb": {
+      "__DOCUMENT_NAME__": "Mage, Frost",
+      "actor": "modules/too-many-tokens-dnd/Mage/MageDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mage/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "uC2MIW37zSOIb8O5": {
+      "__DOCUMENT_NAME__": "Trader",
+      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerDragonbornArctic (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Commoner/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ubcEWtTMU56G0K4f": {
+      "__DOCUMENT_NAME__": "Veteran",
+      "actor": "modules/too-many-tokens-dnd/Veteran/VeteranDragonbornMelee (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Veteran/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "uxqAgvxbvzahOBbL": {
+      "__DOCUMENT_NAME__": "Berserker",
+      "actor": "modules/too-many-tokens-dnd/Berserker/BerserkerDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Berserker/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "zN8WKLkLBGMf1i2V": {
+      "__DOCUMENT_NAME__": "Bard",
+      "actor": "modules/too-many-tokens-dnd/Noble/NobleDragonborn (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Noble/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    }
+  }
+}

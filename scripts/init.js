@@ -1,94 +1,125 @@
 /**
  * Art for Vagabond
- * Automatically applies artwork from Too Many Tokens Online to Vagabond NPCs
+ * CompendiumArt integration for Vagabond system
+ * Based on art-for-daggerheart architecture
  */
 
-let npcMapping = null;
+const MODULE_ID = "art-for-vagabond";
 
-// Base URL for Too Many Tokens DND repository
-const TMT_BASE_URL = "https://raw.githubusercontent.com/IsThisMyRealName/too-many-tokens-dnd/main";
+// Cache for supported pack collections
+let SUPPORTED_PACKS = new Set();
+let MAPPING_DATA_LOADED = false;
 
 /**
- * Load the NPC mapping data on init
+ * Preload all mapping files and cache supported pack collections
  */
-Hooks.once("init", async () => {
-  console.log("Art for Vagabond | Initializing...");
+async function preloadMappingData() {
+  const module = game.modules.get(MODULE_ID);
+  const compendiumMappings = module?.flags?.compendiumArtMappings || {};
 
-  try {
-    const response = await fetch("modules/art-for-vagabond/npc-mapping.json");
-    npcMapping = await response.json();
-    console.log(`Art for Vagabond | Loaded ${Object.keys(npcMapping).length} NPC mappings`);
-  } catch (error) {
-    console.error("Art for Vagabond | Failed to load NPC mapping:", error);
+  SUPPORTED_PACKS.clear();
+
+  console.log(`[${MODULE_ID}] Preloading mapping data...`);
+
+  for (const [systemKey, config] of Object.entries(compendiumMappings)) {
+    if (config?.mapping && typeof config.mapping === 'string') {
+      try {
+        console.log(`[${MODULE_ID}] Loading mapping file: ${config.mapping}`);
+        const response = await fetch(config.mapping);
+        if (response.ok) {
+          const mappingData = await response.json();
+
+          // Add all pack collection IDs from this mapping file to our supported set
+          for (const packId of Object.keys(mappingData)) {
+            SUPPORTED_PACKS.add(packId);
+            console.log(`[${MODULE_ID}] Added supported pack: ${packId}`);
+          }
+        } else {
+          console.warn(`[${MODULE_ID}] Failed to fetch mapping file ${config.mapping}: ${response.status}`);
+        }
+      } catch (error) {
+        console.error(`[${MODULE_ID}] Error loading mapping file ${config.mapping}:`, error);
+      }
+    }
   }
-});
+
+  MAPPING_DATA_LOADED = true;
+  console.log(`[${MODULE_ID}] Mapping data preloaded. Supported packs: ${Array.from(SUPPORTED_PACKS).join(', ')}`);
+}
 
 /**
- * Ready hook - confirm module is loaded
+ * Check if a pack collection is supported
  */
-Hooks.once("ready", () => {
-  if (npcMapping) {
-    console.log("Art for Vagabond | Ready! Artwork will be applied automatically to Vagabond NPCs.");
-  } else {
-    console.warn("Art for Vagabond | NPC mapping failed to load. Module may not function correctly.");
+function isPackSupported(packId) {
+  if (!MAPPING_DATA_LOADED) {
+    console.warn(`[${MODULE_ID}] Mapping data not yet loaded`);
+    return false;
   }
-});
+
+  return SUPPORTED_PACKS.has(packId);
+}
 
 /**
- * Apply artwork to compendium actors
- * This hook fires when Foundry applies art to actors from compendiums
+ * Apply compendium art - Foundry calls this hook with art data loaded from our mapping files
  */
 Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
-  // Only process Actor documents
-  if (documentClass.documentName !== "Actor") return;
+  const packId = pack?.metadata?.id ?? pack?.collection;
 
-  // Only process Vagabond system
-  if (game.system.id !== "vagabond") return;
+  console.log(`[${MODULE_ID}] 🎨 applyCompendiumArt hook fired!`, {
+    packId,
+    actorName: source?.name,
+    hasArt: !!art,
+    artKeys: art ? Object.keys(art) : []
+  });
 
-  // Only process Bestiary and Humanlike compendiums
-  const packId = pack.metadata.id || pack.metadata.name;
-  if (!packId.includes("bestiary") && !packId.includes("humanlike")) return;
-
-  // Check if mapping is loaded
-  if (!npcMapping) {
-    console.warn("Art for Vagabond | NPC mapping not loaded yet");
+  // Check if this pack is supported
+  if (!isPackSupported(packId)) {
+    console.log(`[${MODULE_ID}] Pack ${packId} not supported, skipping`);
     return;
   }
 
-  // Get the actor name
-  const actorName = source.name;
-  if (!actorName) return;
+  console.log(`[${MODULE_ID}] Processing art for ${source.name} in pack ${packId}`);
 
-  // Look up the mapping
-  const mapping = npcMapping[actorName];
-  if (!mapping) {
-    console.debug(`Art for Vagabond | No mapping found for: ${actorName}`);
-    return;
+  // Apply portrait image
+  if (typeof art?.actor === "string" && art.actor) {
+    source.img = art.actor;
+    console.log(`[${MODULE_ID}] Set portrait: ${art.actor}`);
   }
 
-  // Get the Too Many Tokens creature name
-  const tmtCreature = mapping.tooManyTokens;
-  if (!tmtCreature) return;
+  // Apply prototype token data
+  if (art?.prototypeToken) {
+    source.prototypeToken = foundry.utils.mergeObject(
+      source.prototypeToken || {},
+      art.prototypeToken
+    );
+    console.log(`[${MODULE_ID}] Applied token settings:`, {
+      width: source.prototypeToken.width,
+      height: source.prototypeToken.height,
+      texture: source.prototypeToken.texture?.src,
+      randomImg: source.prototypeToken.randomImg
+    });
+  }
 
-  // Construct the wildcard URL pattern
-  // Example: https://raw.githubusercontent.com/IsThisMyRealName/too-many-tokens-dnd/main/Goblin*.webp
-  const wildcardPath = `${TMT_BASE_URL}/${tmtCreature}*.webp`;
+  console.log(`[${MODULE_ID}] ✅ Art applied for ${source.name}`);
+});
 
-  // Apply the token artwork and settings
-  art.prototypeToken = art.prototypeToken || {};
-  art.prototypeToken.texture = art.prototypeToken.texture || {};
+/**
+ * Initialize
+ */
+Hooks.once("ready", async () => {
+  // Preload mapping data
+  await preloadMappingData();
 
-  // Set the wildcard token path
-  art.prototypeToken.texture.src = wildcardPath;
-  art.prototypeToken.randomImg = true; // Enable Foundry's native wildcard randomization
+  console.log(`[${MODULE_ID}] Ready!`);
+  console.log(`[${MODULE_ID}] Supported packs:`, Array.from(SUPPORTED_PACKS));
 
-  // Apply size-based dimensions from mapping
-  art.prototypeToken.width = mapping.width || 1;
-  art.prototypeToken.height = mapping.height || 1;
-
-  // Apply texture scaling
-  art.prototypeToken.texture.scaleX = mapping.scaleX || 1;
-  art.prototypeToken.texture.scaleY = mapping.scaleY || 1;
-
-  console.log(`Art for Vagabond | Applied artwork for ${actorName} → ${tmtCreature} (${mapping.width}x${mapping.height})`);
+  // List available actor compendiums
+  console.log(`[${MODULE_ID}] Available actor compendiums:`);
+  game.packs.forEach(pack => {
+    if (pack.metadata.type === "Actor") {
+      const packId = pack.metadata.id || pack.metadata.name;
+      const supported = SUPPORTED_PACKS.has(packId) ? "✅" : "❌";
+      console.log(`  ${supported} ${packId} (${pack.metadata.label})`);
+    }
+  });
 });
