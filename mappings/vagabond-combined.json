@@ -58,10 +58,10 @@
     },
     "0ggPx89IztNk2YN8": {
       "__DOCUMENT_NAME__": "Goblin, Mage",
-      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "actor": "modules/too-many-tokens-dnd/Goblin Boss/GoblinBossMaleGraygreenForest (1).webp",
       "prototypeToken": {
         "texture": {
-          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "src": "modules/too-many-tokens-dnd/Goblin/*Boss*",
           "scaleX": 1,
           "scaleY": 1
         },
@@ -3544,10 +3544,10 @@
     },
     "qtKz79tM6rnnKOq8": {
       "__DOCUMENT_NAME__": "Goblin, Archer",
-      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinForestMaleGraygreenMelee (1).webp",
+      "actor": "modules/too-many-tokens-dnd/Goblin/GoblinHillMaleYellowRanged (8).webp",
       "prototypeToken": {
         "texture": {
-          "src": "modules/too-many-tokens-dnd/Goblin/*",
+          "src": "modules/too-many-tokens-dnd/Goblin/*Ranged*",
           "scaleX": 1,
           "scaleY": 1
         },
