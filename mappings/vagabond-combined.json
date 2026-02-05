@@ -4288,7 +4288,7 @@
     },
     "Xb2FnkVT17Wxdvvs": {
       "__DOCUMENT_NAME__": "Apothecary",
-      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerDragonbornArctic (1).webp",
+      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerMaleForest (1).webp",
       "prototypeToken": {
         "texture": {
           "src": "modules/too-many-tokens-dnd/Commoner/*",
@@ -4446,6 +4446,76 @@
       "prototypeToken": {
         "texture": {
           "src": "modules/too-many-tokens-dnd/Noble/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FP8tMPuVxIXbK4fN": {
+      "__DOCUMENT_NAME__": "Archer",
+      "actor": "modules/too-many-tokens-dnd/Scout/ScoutHumanMaleForest (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Scout/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SuDEcZVOA7NgqkXa": {
+      "__DOCUMENT_NAME__": "Archmage",
+      "actor": "modules/too-many-tokens-dnd/Mage/MageHumanMale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Mage/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "hFAYCTxu7vKNz9mn": {
+      "__DOCUMENT_NAME__": "Bounty Hunter",
+      "actor": "modules/too-many-tokens-dnd/Commoner/CommonerHalfElfDesertFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Commoner/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "dA1mXxfWcoXO1mma": {
+      "__DOCUMENT_NAME__": "Commander",
+      "actor": "modules/too-many-tokens-dnd/Knight/Knight (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Knight/*",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "randomImg": true,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Jj8oUrV1ePMqe5hO": {
+      "__DOCUMENT_NAME__": "Commander",
+      "actor": "modules/too-many-tokens-dnd/Acolyte/AcolyteDarkElfFemale (1).webp",
+      "prototypeToken": {
+        "texture": {
+          "src": "modules/too-many-tokens-dnd/Acolyte/*",
           "scaleX": 1,
           "scaleY": 1
         },
