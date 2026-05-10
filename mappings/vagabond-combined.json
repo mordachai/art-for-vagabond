@@ -966,20 +966,6 @@
         "height": 1
       }
     },
-    "FsDuYyDw3jtO2KYC": {
-      "__DOCUMENT_NAME__": "Sea Lion",
-      "actor": "modules/too-many-tokens-dnd/Seal/Seal (1).webp",
-      "prototypeToken": {
-        "texture": {
-          "src": "modules/too-many-tokens-dnd/Seal/*",
-          "scaleX": 1,
-          "scaleY": 1
-        },
-        "randomImg": true,
-        "width": 2,
-        "height": 2
-      }
-    },
     "Fup7vnsrE5fRJwyP": {
       "__DOCUMENT_NAME__": "Hellhound",
       "actor": "modules/too-many-tokens-dnd/Hellhound/Hellhound (1).webp",
@@ -1356,20 +1342,6 @@
         "randomImg": true,
         "width": 2,
         "height": 2
-      }
-    },
-    "KOz3gxILuvDESwJZ": {
-      "__DOCUMENT_NAME__": "Ripworm",
-      "actor": "modules/too-many-tokens-dnd/Purple Worm/PurpleWorm (1).webp",
-      "prototypeToken": {
-        "texture": {
-          "src": "modules/too-many-tokens-dnd/Purple Worm/*",
-          "scaleX": 1,
-          "scaleY": 1
-        },
-        "randomImg": true,
-        "width": 1,
-        "height": 1
       }
     },
     "KQSHQH9otaxpToPF": {
@@ -2378,20 +2350,6 @@
         "randomImg": true,
         "width": 2,
         "height": 2
-      }
-    },
-    "bI1V6pqJkiiIGEYJ": {
-      "__DOCUMENT_NAME__": "Purple Worm",
-      "actor": "modules/too-many-tokens-dnd/Purple Worm/PurpleWorm (1).webp",
-      "prototypeToken": {
-        "texture": {
-          "src": "modules/too-many-tokens-dnd/Purple Worm/*",
-          "scaleX": 1,
-          "scaleY": 1
-        },
-        "randomImg": true,
-        "width": 6,
-        "height": 6
       }
     },
     "bQRYqctiGqfLigDQ": {
@@ -3808,7 +3766,7 @@
         "height": 2
       }
     },
-    "uP9PU5GjMzJnsxIs": {
+    "hPna41WWprqcqawU": {
       "__DOCUMENT_NAME__": "Unicorn",
       "actor": "modules/too-many-tokens-dnd/Unicorn/Unicorn (1).webp",
       "prototypeToken": {
