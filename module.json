@@ -4,7 +4,7 @@
   "version": "1.1.2",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "description": "<p>Automatically applies token artwork from Too Many Tokens Online to Vagabond NPCs. Provides 300+ creature tokens with size-appropriate scaling via online URLs - no downloads required!</p>",
   "authors": [
