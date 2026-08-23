@@ -15,8 +15,8 @@ const croppedTextureCache = new Map();
 
 // Per-compendium ring subject scale settings
 const PACK_RING_SETTINGS = {
-  "vagabond.bestiary":  { key: "ringScaleBestiary",  label: "Bestiary",  default: 0.74 },
-  "vagabond.humanlike": { key: "ringScaleHumanlike", label: "Humanlike", default: 0.80 },
+  "vagabond.bestiary":  { key: "ringScaleBestiary",  label: "Bestiary",  default: 1.00 },
+  "vagabond.humanlike": { key: "ringScaleHumanlike", label: "Humanlike", default: 1.00 },
 };
 
 /**
@@ -116,15 +116,19 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
       art.prototypeToken
     );
 
-    // Apply ring subject scale from per-compendium settings
+    // Enable the ring, but leave ring.subject.scale untouched: Foundry's TokenRing
+    // shares that one scaleCorrection value between the subject texture AND the ring
+    // frame UVs (see client/canvas/placeables/tokens/ring.mjs configureSize()), so
+    // changing it grows/shrinks the ring itself instead of just the portrait inside it.
+    // We bake the zoom into the cropped texture ourselves in applyTMTCrop() instead.
     const packSetting = PACK_RING_SETTINGS[packId];
     if (packSetting) {
       const scale = game.settings.get(MODULE_ID, packSetting.key);
       source.prototypeToken.ring ??= {};
       source.prototypeToken.ring.enabled = true;
-      source.prototypeToken.ring.subject ??= {};
-      source.prototypeToken.ring.subject.scale = scale;
-      console.log(`[${MODULE_ID}] Set ring subject scale for ${packSetting.label}: ${scale}`);
+      source.prototypeToken.flags ??= {};
+      source.prototypeToken.flags[MODULE_ID] = { portraitScale: scale };
+      console.log(`[${MODULE_ID}] Set portrait scale for ${packSetting.label}: ${scale}`);
     }
 
     console.log(`[${MODULE_ID}] Applied token settings:`, {
@@ -138,14 +142,22 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
   console.log(`[${MODULE_ID}] ✅ Art applied for ${source.name}`);
 });
 
+// TMT's burned-in frame is just a thin gold trim in the outermost ~18px of a 256px
+// image (radius ~110-128); everything inward, including the darker cloudy vignette
+// some art has near its edge, is actual artwork, not frame. Verified visually across
+// multiple samples (Aboleth, Killer Whale): clean up to radius ~105/128 (0.82), first
+// gold sliver bleeds in around 108-112. Using 0.78 for margin. Expressed as a fraction
+// of the half-size so it holds regardless of the source image's actual pixel dimensions.
+const TMT_ART_RADIUS_FRACTION = 0.78;
+
 /**
  * After Foundry loads and applies the texture to the token mesh, we intercept it,
  * draw a cropped version onto an offscreen canvas (removing the burned-in frame),
  * and swap the mesh texture. Results are cached by image URL.
  *
- * TMT images: 256×256px total, 230px inner portrait circle (13px frame on each side).
- * We keep the canvas at 256×256 so the ring system sees normal dimensions, and make
- * the frame area transparent so the Dynamic Token Ring artwork shows through.
+ * We keep the canvas at the source image's own size so the ring system sees normal
+ * dimensions, and make the frame area transparent so the Dynamic Token Ring artwork
+ * shows through instead of TMT's own baked-in ring.
  */
 function applyTMTCrop(token) {
   const docSrc = token.document.texture?.src ?? "";
@@ -175,21 +187,23 @@ function applyTMTCrop(token) {
     return;
   }
 
-  // Keep the canvas at the original 256×256 size so the ring system sees normal dimensions.
-  // Clip to the inner portrait circle (radius 115 = 230px diameter), making the burned-in
-  // frame ring (13px) transparent. The Dynamic Token Ring draws its artwork over that
-  // transparent band, so the ring frame is visible without covering the portrait.
-  const SRC = 256, PORTRAIT_RADIUS = 115;
+  const width = imgEl.naturalWidth || imgEl.width;
+  const height = imgEl.naturalHeight || imgEl.height;
+
+  // Portrait zoom is baked in here (not via ring.subject.scale) so only the artwork
+  // scales — see the comment in applyCompendiumArt for why.
+  const portraitScale = token.document.getFlag(MODULE_ID, "portraitScale") ?? 1;
+  const artRadius = Math.min(width, height) / 2 * TMT_ART_RADIUS_FRACTION * portraitScale;
 
   const offscreen = document.createElement("canvas");
-  offscreen.width = SRC;
-  offscreen.height = SRC;
+  offscreen.width = width;
+  offscreen.height = height;
   const ctx = offscreen.getContext("2d");
 
   ctx.beginPath();
-  ctx.arc(SRC / 2, SRC / 2, PORTRAIT_RADIUS, 0, Math.PI * 2);
+  ctx.arc(width / 2, height / 2, artRadius, 0, Math.PI * 2);
   ctx.clip();
-  ctx.drawImage(imgEl, 0, 0, SRC, SRC);
+  ctx.drawImage(imgEl, 0, 0, width, height);
 
   const croppedTex = PIXI.Texture.from(offscreen);
 

@@ -352,10 +352,10 @@
     },
     "5EWozL7AN3eZxhon": {
       "__DOCUMENT_NAME__": "Leech, Giant",
-      "actor": "modules/too-many-tokens-dnd/Giant Worm/GiantWorm (1).webp",
+      "actor": "modules/too-many-tokens-dnd/Carrion Crawler/CarrionCrawler (1).webp",
       "prototypeToken": {
         "texture": {
-          "src": "modules/too-many-tokens-dnd/Giant Worm/*",
+          "src": "modules/too-many-tokens-dnd/Carrion Crawler/*",
           "scaleX": 1,
           "scaleY": 1
         },
