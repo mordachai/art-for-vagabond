@@ -10,31 +10,17 @@ const MODULE_ID = "art-for-vagabond";
 let SUPPORTED_PACKS = new Set();
 let MAPPING_DATA_LOADED = false;
 
-// Cache: actual image URL -> cropped PIXI.Texture (freed on scene change)
+// Cache: actual image URL -> masked PIXI.Texture (freed on scene change)
 const croppedTextureCache = new Map();
 
-// Per-compendium ring subject scale settings
-const PACK_RING_SETTINGS = {
-  "vagabond.bestiary":  { key: "ringScaleBestiary",  label: "Bestiary",  default: 1.00 },
-  "vagabond.humanlike": { key: "ringScaleHumanlike", label: "Humanlike", default: 1.00 },
-};
+// Compendiums whose NPCs get the Dynamic Token Ring enabled
+const RING_PACKS = new Set(["vagabond.bestiary", "vagabond.humanlike"]);
 
-/**
- * Register module settings (runs during init, before the game is ready)
- */
-Hooks.once("init", () => {
-  for (const { key, label, default: def } of Object.values(PACK_RING_SETTINGS)) {
-    game.settings.register(MODULE_ID, key, {
-      name: `${label}: Token Ring Subject Scale`,
-      hint: `Controls how large the portrait appears inside the Dynamic Token Ring for ${label} NPCs. Lower values leave more space for the ring frame.`,
-      scope: "world",
-      config: true,
-      type: Number,
-      range: { min: 0.50, max: 1.00, step: 0.01 },
-      default: def,
-    });
-  }
-});
+// Circular mask (white = keep, black = remove) applied over TMT's burned-in frame
+const CROP_MASK_PATH = `modules/${MODULE_ID}/assets/crop_mask.webp`;
+
+// Mask converted to real alpha (from luminance), ready for "destination-in" compositing
+let cropMaskCanvas = null;
 
 /**
  * Preload all mapping files and cache supported pack collections
@@ -116,19 +102,9 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
       art.prototypeToken
     );
 
-    // Enable the ring, but leave ring.subject.scale untouched: Foundry's TokenRing
-    // shares that one scaleCorrection value between the subject texture AND the ring
-    // frame UVs (see client/canvas/placeables/tokens/ring.mjs configureSize()), so
-    // changing it grows/shrinks the ring itself instead of just the portrait inside it.
-    // We bake the zoom into the cropped texture ourselves in applyTMTCrop() instead.
-    const packSetting = PACK_RING_SETTINGS[packId];
-    if (packSetting) {
-      const scale = game.settings.get(MODULE_ID, packSetting.key);
+    if (RING_PACKS.has(packId)) {
       source.prototypeToken.ring ??= {};
       source.prototypeToken.ring.enabled = true;
-      source.prototypeToken.flags ??= {};
-      source.prototypeToken.flags[MODULE_ID] = { portraitScale: scale };
-      console.log(`[${MODULE_ID}] Set portrait scale for ${packSetting.label}: ${scale}`);
     }
 
     console.log(`[${MODULE_ID}] Applied token settings:`, {
@@ -142,26 +118,43 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
   console.log(`[${MODULE_ID}] ✅ Art applied for ${source.name}`);
 });
 
-// TMT's burned-in frame is just a thin gold trim in the outermost ~18px of a 256px
-// image (radius ~110-128); everything inward, including the darker cloudy vignette
-// some art has near its edge, is actual artwork, not frame. Verified visually across
-// multiple samples (Aboleth, Killer Whale): clean up to radius ~105/128 (0.82), first
-// gold sliver bleeds in around 108-112. Using 0.78 for margin. Expressed as a fraction
-// of the half-size so it holds regardless of the source image's actual pixel dimensions.
-const TMT_ART_RADIUS_FRACTION = 0.78;
+/**
+ * Load the crop mask and convert its luminance to alpha. The mask file is plain RGB
+ * (white circle on black), but "destination-in" compositing only reads alpha.
+ */
+async function loadCropMask() {
+  const img = new Image();
+  img.src = foundry.utils.getRoute(CROP_MASK_PATH);
+  await img.decode();
+
+  const canvas = document.createElement("canvas");
+  canvas.width = img.naturalWidth;
+  canvas.height = img.naturalHeight;
+  const ctx = canvas.getContext("2d");
+  ctx.drawImage(img, 0, 0);
+
+  const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  const px = imageData.data;
+  for (let i = 0; i < px.length; i += 4) px[i + 3] = px[i];
+  ctx.putImageData(imageData, 0, 0);
+
+  cropMaskCanvas = canvas;
+  console.log(`[${MODULE_ID}] Crop mask loaded`);
+}
 
 /**
  * After Foundry loads and applies the texture to the token mesh, we intercept it,
- * draw a cropped version onto an offscreen canvas (removing the burned-in frame),
+ * draw it onto an offscreen canvas through the crop mask (removing the burned-in frame),
  * and swap the mesh texture. Results are cached by image URL.
  *
- * We keep the canvas at the source image's own size so the ring system sees normal
- * dimensions, and make the frame area transparent so the Dynamic Token Ring artwork
- * shows through instead of TMT's own baked-in ring.
+ * The canvas keeps the source image's own size so the ring system sees normal
+ * dimensions; everything outside the mask is transparent, so the Dynamic Token Ring
+ * artwork shows through instead of TMT's own baked-in ring.
  */
 function applyTMTCrop(token) {
   const docSrc = token.document.texture?.src ?? "";
   if (!docSrc.includes("too-many-tokens")) return;
+  if (!cropMaskCanvas) return;
 
   const mesh = token.mesh;
   if (!mesh?.texture?.valid) return;
@@ -190,20 +183,14 @@ function applyTMTCrop(token) {
   const width = imgEl.naturalWidth || imgEl.width;
   const height = imgEl.naturalHeight || imgEl.height;
 
-  // Portrait zoom is baked in here (not via ring.subject.scale) so only the artwork
-  // scales — see the comment in applyCompendiumArt for why.
-  const portraitScale = token.document.getFlag(MODULE_ID, "portraitScale") ?? 1;
-  const artRadius = Math.min(width, height) / 2 * TMT_ART_RADIUS_FRACTION * portraitScale;
-
   const offscreen = document.createElement("canvas");
   offscreen.width = width;
   offscreen.height = height;
   const ctx = offscreen.getContext("2d");
 
-  ctx.beginPath();
-  ctx.arc(width / 2, height / 2, artRadius, 0, Math.PI * 2);
-  ctx.clip();
   ctx.drawImage(imgEl, 0, 0, width, height);
+  ctx.globalCompositeOperation = "destination-in";
+  ctx.drawImage(cropMaskCanvas, 0, 0, width, height);
 
   const croppedTex = PIXI.Texture.from(offscreen);
 
@@ -226,6 +213,14 @@ Hooks.on("canvasTearDown", () => {
  */
 Hooks.once("ready", async () => {
   await preloadMappingData();
+
+  try {
+    await loadCropMask();
+    // Tokens drawn before the mask finished loading were skipped; catch them up
+    canvas.tokens?.placeables.forEach(applyTMTCrop);
+  } catch (error) {
+    console.error(`[${MODULE_ID}] Failed to load crop mask:`, error);
+  }
 
   console.log(`[${MODULE_ID}] Ready!`);
   console.log(`[${MODULE_ID}] Supported packs:`, Array.from(SUPPORTED_PACKS));
