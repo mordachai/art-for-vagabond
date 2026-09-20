@@ -209,9 +209,30 @@ Hooks.on("canvasTearDown", () => {
 });
 
 /**
+ * The masked artwork is sized for the Dynamic Token Ring "Grid" fit mode. In "Standard"
+ * mode Foundry rescales the subject and the portraits look wrong, so warn the GM
+ * (only the GM can change this world setting).
+ */
+function checkRingFitMode() {
+  if (!game.user.isGM) return;
+
+  const gridMode = foundry.canvas.placeables.tokens.TokenRingConfig.CORE_TOKEN_RINGS_FIT_MODES.grid.id;
+  if (game.settings.get("core", "dynamicTokenRingFitMode") === gridMode) return;
+
+  ui.notifications.warn(
+    "Art for Vagabond: token portraits only display correctly with the core setting "
+    + "\"Dynamic Token Rings Fit Modes\" set to \"Grid\". Change it in Game Settings → Configure Settings → Core.",
+    { permanent: true }
+  );
+  console.warn(`[${MODULE_ID}] Dynamic Token Rings Fit Mode is not "Grid"; tokens will not display correctly.`);
+}
+
+/**
  * Initialize
  */
 Hooks.once("ready", async () => {
+  checkRingFitMode();
+
   await preloadMappingData();
 
   try {

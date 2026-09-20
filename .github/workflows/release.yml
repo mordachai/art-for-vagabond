@@ -37,7 +37,7 @@ jobs:
 
       # 3. Create the Zip file (Only if tag doesn't exist)
       # ------------------------------------------------------------------
-      # Includes only runtime files: module.json, scripts/, mappings/, LICENSE, README.md
+      # Includes only runtime files: module.json, scripts/, assets/, mappings/, LICENSE, README.md
       # Excludes build scripts and development files
       # ------------------------------------------------------------------
       - name: Zip Files
@@ -46,6 +46,7 @@ jobs:
           zip -r module.zip \
             module.json \
             scripts/ \
+            assets/ \
             mappings/vagabond-combined.json \
             LICENSE \
             README.md
